@@ -1,0 +1,1423 @@
+[p PRO_MODE GLOBOPT AUTOSTATIC PIC14 PIC14E SPACEOPT ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1938 ]
+[d frameptr 6 ]
+"296 D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c
+[e E3177 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"15 D:\MCUProject\ZH-SL-S4080-1\src\key.c
+[e E3840 KEY_CURRENT_STATE `uc
+KEY_UP 0
+KEY_DOWN 1
+]
+"17
+[e E3844 KEY_CURRENT_VALUE `uc
+KNOP 16
+K1 1
+K2 2
+K3 3
+K4 4
+]
+"422 D:\MCUProject\ZH-SL-S4080-1\src\main.c
+[e E3177 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"45 D:\MCUProject\ZH-SL-S4080-1\src\uart.c
+[e E3177 _BOOL `uc
+FALSE 0
+TRUE 1
+]
+"41 D:\MCUProject\ZH-SL-S4080-1\src\adc.c
+[v _init_adc init_adc `(v  1 e 0 0 ]
+"41 D:\MCUProject\ZH-SL-S4080-1\src\delay.c
+[v _delay_1us delay_1us `(v  1 e 0 0 ]
+"64
+[v _delay_ms delay_ms `(v  1 e 0 0 ]
+"67 D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c
+[v _isr isr `II(v  1 e 0 0 ]
+"565
+[v _init_interrupt init_interrupt `(v  1 e 0 0 ]
+"179 D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c
+[v _read_param_eeprom read_param_eeprom `(v  1 e 0 0 ]
+"467
+[v _auto_system auto_system `(v  1 e 0 0 ]
+"528
+[v _Init_Ird Init_Ird `(v  1 e 0 0 ]
+"567
+[v _Key_Menu Key_Menu `(v  1 e 0 0 ]
+"45 D:\MCUProject\ZH-SL-S4080-1\src\key.c
+[v _init_key init_key `(v  1 e 0 0 ]
+"61
+[v _scan_key_value scan_key_value `(v  1 e 0 0 ]
+"26 D:\MCUProject\ZH-SL-S4080-1\src\led.c
+[v _init_led init_led `(v  1 e 0 0 ]
+"157 D:\MCUProject\ZH-SL-S4080-1\src\main.c
+[v _init_osc init_osc `(v  1 e 0 0 ]
+"174
+[v _init_port init_port `(v  1 e 0 0 ]
+"221
+[v _driver_init driver_init `(v  1 e 0 0 ]
+"253
+[v _middle_init middle_init `(v  1 e 0 0 ]
+"273
+[v _application_init application_init `(v  1 e 0 0 ]
+"370
+[v _main main `(i  1 e 2 0 ]
+"75 D:\MCUProject\ZH-SL-S4080-1\src\Modbus.c
+[v _crc16 crc16 `(ui  1 e 2 0 ]
+"24 D:\MCUProject\ZH-SL-S4080-1\src\PID.c
+[v _pid_calc pid_calc `(f  1 e 3 0 ]
+"133
+[v _pid_calc_2 pid_calc_2 `(f  1 e 3 0 ]
+"243
+[v _pid_init pid_init `(v  1 e 0 0 ]
+"34 D:\MCUProject\ZH-SL-S4080-1\src\pwm.c
+[v _init_pwm init_pwm `(v  1 e 0 0 ]
+"125
+[v _Enable_Buck_Pwm Enable_Buck_Pwm `(v  1 e 0 0 ]
+"141
+[v _Disable_Buck_Pwm Disable_Buck_Pwm `(v  1 e 0 0 ]
+"157
+[v _Set_Buck_Pwm_Duty Set_Buck_Pwm_Duty `(v  1 e 0 0 ]
+"186
+[v _Enable_Bost_Pwm1 Enable_Bost_Pwm1 `(v  1 e 0 0 ]
+"199
+[v _Enable_Bost_Pwm2 Enable_Bost_Pwm2 `(v  1 e 0 0 ]
+"214
+[v _Disable_Bost_Pwm1 Disable_Bost_Pwm1 `(v  1 e 0 0 ]
+[v i1_Disable_Bost_Pwm1 Disable_Bost_Pwm1 `(v  1 e 0 0 ]
+[v i1_Disable_Bost_Pwm1 Disable_Bost_Pwm1 `(v  1 e 0 0 ]
+"228
+[v _Disable_Bost_Pwm2 Disable_Bost_Pwm2 `(v  1 e 0 0 ]
+[v i1_Disable_Bost_Pwm2 Disable_Bost_Pwm2 `(v  1 e 0 0 ]
+[v i1_Disable_Bost_Pwm2 Disable_Bost_Pwm2 `(v  1 e 0 0 ]
+"242
+[v _Set_Bost_Pwm1_Duty Set_Bost_Pwm1_Duty `(v  1 e 0 0 ]
+[v i1_Set_Bost_Pwm1_Duty Set_Bost_Pwm1_Duty `(v  1 e 0 0 ]
+[v i1_Set_Bost_Pwm1_Duty Set_Bost_Pwm1_Duty `(v  1 e 0 0 ]
+"271
+[v _Set_Bost_Pwm2_Duty Set_Bost_Pwm2_Duty `(v  1 e 0 0 ]
+[v i1_Set_Bost_Pwm2_Duty Set_Bost_Pwm2_Duty `(v  1 e 0 0 ]
+[v i1_Set_Bost_Pwm2_Duty Set_Bost_Pwm2_Duty `(v  1 e 0 0 ]
+"132 D:\MCUProject\ZH-SL-S4080-1\src\task.c
+[v _handle_ad_loop handle_ad_loop `(v  1 e 0 0 ]
+"1450
+[v _start_ad_convert start_ad_convert `(ui  1 e 2 0 ]
+"1568
+[v _handle_task_process handle_task_process `(v  1 e 0 0 ]
+"2077
+[v _Mppt_Charge Mppt_Charge `(v  1 e 0 0 ]
+"2201
+[v _CC_CV_Charge CC_CV_Charge `(v  1 e 0 0 ]
+"42 D:\MCUProject\ZH-SL-S4080-1\src\timer.c
+[v _init_timer1 init_timer1 `(v  1 e 0 0 ]
+"81 D:\MCUProject\ZH-SL-S4080-1\src\uart.c
+[v _init_uart1 init_uart1 `(v  1 e 0 0 ]
+"117
+[v _uart1_send_byte uart1_send_byte `(v  1 e 0 0 ]
+"147
+[v _uart1_send_nbyte uart1_send_nbyte `(v  1 e 0 0 ]
+"163
+[v _uart1_read_byte uart1_read_byte `(uc  1 e 1 0 ]
+"179
+[v _uart1_read_nbyte uart1_read_nbyte `(v  1 e 0 0 ]
+"203
+[v _handle_even_check handle_even_check `(b  1 e 0 0 ]
+"232
+[v _handle_uart_rx_buf handle_uart_rx_buf `(v  1 e 0 0 ]
+"4 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\abdiv.c
+[v ___abdiv __abdiv `(c  1 e 1 0 ]
+"4 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\abmod.c
+[v ___abmod __abmod `(c  1 e 1 0 ]
+"33 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\abtoft.c
+[v ___abtoft __abtoft `(f  1 e 3 0 ]
+"6 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"5 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"42 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+"6 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"6 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"37 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\attoft.c
+[v ___attoft __attoft `(f  1 e 3 0 ]
+"6 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"6 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"32 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"2 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\bmul.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"62 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"4 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"51 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"15 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"18 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"4 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"4 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"27 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"6 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"6 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"35 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"2 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lmul.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"6 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"6 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"30 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lttoft.c
+[v ___lttoft __lttoft `(f  1 e 3 0 ]
+"6 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"6 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"28 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"8 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\memset.c
+[v _memset memset `(*.39v  1 e 1 0 ]
+"2 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\tmul.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"4 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\wmul.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"6 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 0 0 ]
+"24
+[v _memcpyee memcpyee `(v  1 e 0 0 ]
+"48
+[v ___eetoc __eetoc `(uc  1 e 1 0 ]
+"56
+[v ___eetoi __eetoi `(ui  1 e 2 0 ]
+"64
+[v ___eetom __eetom `(um  1 e 3 0 ]
+"72
+[v ___eetol __eetol `(ul  1 e 4 0 ]
+"80
+[v ___ctoee __ctoee `(uc  1 e 1 0 ]
+"87
+[v ___itoee __itoee `(ui  1 e 2 0 ]
+"94
+[v ___mtoee __mtoee `(um  1 e 3 0 ]
+"101
+[v ___ltoee __ltoee `(ul  1 e 4 0 ]
+"108
+[v ___eetoft __eetoft `(f  1 e 3 0 ]
+"116
+[v ___eetofl __eetofl `(d  1 e 3 0 ]
+"124
+[v ___fttoee __fttoee `(f  1 e 3 0 ]
+"131
+[v ___fltoee __fltoee `(d  1 e 3 0 ]
+"6 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\pic\eeread.c
+[v _eeprom_read eeprom_read `(uc  1 e 1 0 ]
+"6 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\pic\eewrite.c
+[v _eeprom_write eeprom_write `(v  1 e 0 0 ]
+"49 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\pic\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"96 D:\MCUProject\ZH-SL-S4080-1\include\ird_remote.h
+[v _dianchi_guoya_baohu dianchi_guoya_baohu `f  1 e 3 0 ]
+"98
+[v _dianchi_guoya_huifu dianchi_guoya_huifu `f  1 e 3 0 ]
+"100
+[v _dianchi_qianya_baohu dianchi_qianya_baohu `f  1 e 3 0 ]
+"102
+[v _dianchi_qianya_huifu dianchi_qianya_huifu `f  1 e 3 0 ]
+"104
+[v _dianchi_cv_level dianchi_cv_level `f  1 e 3 0 ]
+"106
+[v _charge_i_limit charge_i_limit `f  1 e 3 0 ]
+"108
+[v _shuchu_shortout_voltage shuchu_shortout_voltage `f  1 e 3 0 ]
+"110
+[v _shuchu_open_voltage shuchu_open_voltage `f  1 e 3 0 ]
+"112
+[v _discharge_i_baohu discharge_i_baohu `f  1 e 3 0 ]
+"114
+[v _discharge_i_limit discharge_i_limit `f  1 e 3 0 ]
+"116
+[v _light_on_pv_level light_on_pv_level `f  1 e 3 0 ]
+"118
+[v _light_off_pv_level light_off_pv_level `f  1 e 3 0 ]
+"121
+[v _Load_Pmax Load_Pmax `f  1 e 3 0 ]
+"122
+[v _Load2_Pmax Load2_Pmax `f  1 e 3 0 ]
+"10 D:\MCUProject\ZH-SL-S4080-1\src\adc.c
+[v _mcu_value mcu_value `ui  1 e 2 0 ]
+"12
+[v _temperature_value temperature_value `ui  1 e 2 0 ]
+"14
+[v _pv_voltage_value pv_voltage_value `ui  1 e 2 0 ]
+"16
+[v _battery_voltage_value battery_voltage_value `ui  1 e 2 0 ]
+"18
+[v _load_voltage_value load_voltage_value `ui  1 e 2 0 ]
+"20
+[v _charge_current_value charge_current_value `ui  1 e 2 0 ]
+"22
+[v _discharge_current_value discharge_current_value `ui  1 e 2 0 ]
+"24
+[v _load_voltage2_value load_voltage2_value `ui  1 e 2 0 ]
+"26
+[v _discharge_current2_value discharge_current2_value `ui  1 e 2 0 ]
+"29
+[v _adc_buffer adc_buffer `[64]ui  1 e 128 @9072 ]
+"9 D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c
+[v _open_discharge_time open_discharge_time `uc  1 e 1 0 ]
+"10
+[v _ms_cnt ms_cnt `ui  1 e 2 0 ]
+"11
+[v _se_cnt se_cnt `ui  1 e 2 0 ]
+"12
+[v _mi_cnt mi_cnt `ui  1 e 2 0 ]
+"13
+[v _ho_cnt ho_cnt `ui  1 e 2 0 ]
+"15
+[v _open_an0_time open_an0_time `uc  1 e 1 0 ]
+"16
+[v _an0_time_count an0_time_count `ui  1 e 2 0 ]
+"17
+[v _handle_an0_process_flag handle_an0_process_flag `uc  1 e 1 0 ]
+"20
+[v _open_an1_time open_an1_time `uc  1 e 1 0 ]
+"21
+[v _an1_time_count an1_time_count `ui  1 e 2 0 ]
+"22
+[v _handle_an1_process_flag handle_an1_process_flag `uc  1 e 1 0 ]
+"25
+[v _open_an2_time open_an2_time `uc  1 e 1 0 ]
+"26
+[v _an2_time_count an2_time_count `ui  1 e 2 0 ]
+"27
+[v _handle_an2_process_flag handle_an2_process_flag `uc  1 e 1 0 ]
+"30
+[v _open_an3_time open_an3_time `uc  1 e 1 0 ]
+"31
+[v _an3_time_count an3_time_count `ui  1 e 2 0 ]
+"32
+[v _handle_an3_process_flag handle_an3_process_flag `uc  1 e 1 0 ]
+"35
+[v _open_an4_time open_an4_time `uc  1 e 1 0 ]
+"36
+[v _an4_time_count an4_time_count `ui  1 e 2 0 ]
+"37
+[v _handle_an4_process_flag handle_an4_process_flag `uc  1 e 1 0 ]
+"40
+[v _open_an9_time open_an9_time `uc  1 e 1 0 ]
+"41
+[v _an9_time_count an9_time_count `ui  1 e 2 0 ]
+"42
+[v _handle_an9_process_flag handle_an9_process_flag `uc  1 e 1 0 ]
+"45
+[v _open_an8_time open_an8_time `uc  1 e 1 0 ]
+"46
+[v _an8_time_count an8_time_count `ui  1 e 2 0 ]
+"47
+[v _handle_an8_process_flag handle_an8_process_flag `uc  1 e 1 0 ]
+"49
+[v _open_an11_time open_an11_time `uc  1 e 1 0 ]
+"50
+[v _an11_time_count an11_time_count `ui  1 e 2 0 ]
+"51
+[v _handle_an11_process_flag handle_an11_process_flag `uc  1 e 1 0 ]
+"53
+[v _handle_short1_flag handle_short1_flag `uc  1 e 1 0 ]
+"54
+[v _handle_short2_flag handle_short2_flag `uc  1 e 1 0 ]
+"58
+[v _open_sleep_time open_sleep_time `uc  1 e 1 0 ]
+"59
+[v _sleep_time_count sleep_time_count `ui  1 e 2 0 ]
+"33 D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c
+[v _p_v p_v `f  1 e 3 0 ]
+"35
+[v _b_v b_v `f  1 e 3 0 ]
+"37
+[v _load_v load_v `f  1 e 3 0 ]
+"39
+[v _charge_I charge_I `f  1 e 3 0 ]
+"41
+[v _load_I load_I `f  1 e 3 0 ]
+"43
+[v _sys_mode sys_mode `uc  1 e 1 0 ]
+"45
+[v _today_index today_index `uc  1 e 1 0 ]
+"47
+[v _bt_00_hv bt_00_hv `f  1 e 3 0 ]
+"48
+[v _bt_00_lv bt_00_lv `f  1 e 3 0 ]
+"73
+[v _light_pv light_pv `f  1 e 3 0 ]
+"75
+[v _load_cc_I load_cc_I `f  1 e 3 0 ]
+"79
+[v _step_01_load_percent step_01_load_percent `f  1 e 3 0 ]
+"81
+[v _step_02_load_percent step_02_load_percent `f  1 e 3 0 ]
+"83
+[v _step_03_load_percent step_03_load_percent `f  1 e 3 0 ]
+"85
+[v _step_04_load_percent step_04_load_percent `f  1 e 3 0 ]
+"87
+[v _step_05_load_percent step_05_load_percent `f  1 e 3 0 ]
+"89
+[v _step_01_time_limit step_01_time_limit `ui  1 e 2 0 ]
+"91
+[v _step_02_time_limit step_02_time_limit `ui  1 e 2 0 ]
+"93
+[v _step_03_time_limit step_03_time_limit `ui  1 e 2 0 ]
+"95
+[v _step_04_time_limit step_04_time_limit `ui  1 e 2 0 ]
+"97
+[v _step_05_time_limit step_05_time_limit `ui  1 e 2 0 ]
+"99
+[v _volt_id volt_id `uc  1 e 1 0 ]
+"101
+[v _bt_id bt_id `uc  1 e 1 0 ]
+"103
+[v _light_time light_time `ui  1 e 2 0 ]
+"110
+[v _bt_volt_80 bt_volt_80 `f  1 e 3 0 ]
+"112
+[v _bt_volt_60 bt_volt_60 `f  1 e 3 0 ]
+"114
+[v _bt_volt_40 bt_volt_40 `f  1 e 3 0 ]
+"116
+[v _bt_volt_20 bt_volt_20 `f  1 e 3 0 ]
+"118
+[v _bt_volt_00 bt_volt_00 `f  1 e 3 0 ]
+"155
+[v _ird_status ird_status `uc  1 e 1 0 ]
+"157
+[v _receive_bit_count receive_bit_count `uc  1 e 1 0 ]
+"159
+[v _ird_receive_flag ird_receive_flag `uc  1 e 1 0 ]
+"161
+[v _ird_receive_time_count ird_receive_time_count `uc  1 e 1 0 ]
+"163
+[v _ird_data ird_data `ul  1 e 4 0 ]
+"167
+[v _light_mode light_mode `uc  1 e 1 0 ]
+"168
+[v _light2_mode light2_mode `uc  1 e 1 0 ]
+"170
+[v _led_out_ctrl led_out_ctrl `uc  1 e 1 0 ]
+"15 D:\MCUProject\ZH-SL-S4080-1\src\key.c
+[v _KEY_STATE KEY_STATE `E3840  1 e 1 0 ]
+"17
+[v _KEY_VALUE KEY_VALUE `E3844  1 e 1 0 ]
+"20
+[v _scan_key_time_count scan_key_time_count `uc  1 e 1 0 ]
+"22
+[v _handle_scan_key_flag handle_scan_key_flag `uc  1 e 1 0 ]
+"24
+[v _have_person1_flag have_person1_flag `uc  1 e 1 0 ]
+"26
+[v _have_person1_time_count have_person1_time_count `uc  1 e 1 0 ]
+"28
+[v _have_person2_flag have_person2_flag `uc  1 e 1 0 ]
+"30
+[v _have_person2_time_count have_person2_time_count `uc  1 e 1 0 ]
+"32
+[v _device_status device_status `uc  1 e 1 0 ]
+"34
+[v _key1_time_count key1_time_count `uc  1 e 1 0 ]
+"36
+[v _key1_index key1_index `uc  1 e 1 0 ]
+"7 D:\MCUProject\ZH-SL-S4080-1\src\Modbus.c
+[v _crc_data crc_data `ui  1 e 2 0 ]
+"10
+[v _CRCHi CRCHi `DCC[256]uc  1 e 256 0 ]
+"40
+[v _CRCLo CRCLo `DCC[256]uc  1 e 256 0 ]
+[s S1180 PID_VAR 21 `f 1 SetPoint 3 0 `f 1 Proportion 3 3 `f 1 Integral 3 6 `f 1 Derivative 3 9 `f 1 LastError 3 12 `f 1 PrevError 3 15 `f 1 SumError 3 18 ]
+"14 D:\MCUProject\ZH-SL-S4080-1\src\PID.c
+[v _PID_CC_charge PID_CC_charge `S1180  1 e 21 0 ]
+"16
+[v _PID_CV_charge PID_CV_charge `S1180  1 e 21 0 ]
+"18
+[v _PID_CC_discharge PID_CC_discharge `S1180  1 e 21 0 ]
+"20
+[v _PID_CC2_discharge PID_CC2_discharge `S1180  1 e 21 0 ]
+"13 D:\MCUProject\ZH-SL-S4080-1\src\pwm.c
+[v _buck_pwm_value buck_pwm_value `ui  1 e 2 0 ]
+"15
+[v _bost_pwm1_value bost_pwm1_value `ui  1 e 2 0 ]
+"17
+[v _bost_pwm2_value bost_pwm2_value `ui  1 e 2 0 ]
+"15 D:\MCUProject\ZH-SL-S4080-1\src\task.c
+[v _system_status system_status `uc  1 e 1 0 ]
+"17
+[v _system_check_time system_check_time `uc  1 e 1 0 ]
+"19
+[v _system_time_count system_time_count `ui  1 e 2 0 ]
+"21
+[v _work_mode work_mode `uc  1 e 1 0 ]
+"24
+[v _pv_voltage_status pv_voltage_status `uc  1 e 1 0 ]
+"26
+[v _battery_voltage_status battery_voltage_status `uc  1 e 1 0 ]
+"31
+[v _discharge1_index discharge1_index `uc  1 e 1 0 ]
+"32
+[v _discharge2_index discharge2_index `uc  1 e 1 0 ]
+"34
+[v _charge_index charge_index `uc  1 e 1 0 ]
+"36
+[v _nop_index nop_index `uc  1 e 1 0 ]
+"38
+[v _involid_time_count involid_time_count `ui  1 e 2 0 ]
+"39
+[v _cv_level_time_count cv_level_time_count `ui  1 e 2 0 ]
+"41
+[v _load_short_time_count load_short_time_count `ui  1 e 2 0 ]
+"42
+[v _load2_short_time_count load2_short_time_count `ui  1 e 2 0 ]
+"44
+[v _load_open_time_count load_open_time_count `ui  1 e 2 0 ]
+"45
+[v _load2_open_time_count load2_open_time_count `ui  1 e 2 0 ]
+"47
+[v _over_load1_time_count over_load1_time_count `ui  1 e 2 0 ]
+"48
+[v _over_load2_time_count over_load2_time_count `ui  1 e 2 0 ]
+"50
+[v _battery_low_time_count battery_low_time_count `ui  1 e 2 0 ]
+"53
+[v _night_time_count night_time_count `ul  1 e 4 0 ]
+"55
+[v _day_time_count day_time_count `ul  1 e 4 0 ]
+"57
+[v _pv_time_count pv_time_count `ul  1 e 4 0 ]
+"59
+[v _light_time_level light_time_level `ul  1 e 4 0 ]
+"63
+[v _I_prev I_prev `ui  1 e 2 0 ]
+"66
+[v _PWM PWM `f  1 e 3 0 ]
+"68
+[v _PWM_I PWM_I `f  1 e 3 0 ]
+"70
+[v _PWM2 PWM2 `f  1 e 3 0 ]
+"72
+[v _PWM_I2 PWM_I2 `f  1 e 3 0 ]
+"75
+[v _mppt_status mppt_status `uc  1 e 1 0 ]
+"77
+[v _mppt_time_count mppt_time_count `ui  1 e 2 0 ]
+"79
+[v _temper_time_count temper_time_count `uc  1 e 1 0 ]
+"81
+[v _over_temper_time_count over_temper_time_count `uc  1 e 1 0 ]
+"83
+[v _sys_temper_flag sys_temper_flag `uc  1 e 1 0 ]
+"91
+[v _bt_time_count bt_time_count `uc  1 e 1 0 ]
+"93
+[v _pv_index pv_index `uc  1 e 1 0 ]
+"95
+[v _Adjust_Pout_Flag Adjust_Pout_Flag `uc  1 e 1 0 ]
+"97
+[v _voltage_adjust_index voltage_adjust_index `uc  1 e 1 0 ]
+"99
+[v _limit_power_pid_flag limit_power_pid_flag `uc  1 e 1 0 ]
+"100
+[v _limit_power_pid2_flag limit_power_pid2_flag `uc  1 e 1 0 ]
+"102
+[v _t1 t1 `uc  1 e 1 0 ]
+"103
+[v _t2 t2 `uc  1 e 1 0 ]
+"104
+[v _t3 t3 `uc  1 e 1 0 ]
+"105
+[v _t4 t4 `uc  1 e 1 0 ]
+"106
+[v _t5 t5 `uc  1 e 1 0 ]
+"110
+[v _mcu_t00_time_count mcu_t00_time_count `uc  1 e 1 0 ]
+"111
+[v _mcu_t01_time_count mcu_t01_time_count `uc  1 e 1 0 ]
+"112
+[v _mcu_t02_time_count mcu_t02_time_count `uc  1 e 1 0 ]
+"113
+[v _mcu_t03_time_count mcu_t03_time_count `uc  1 e 1 0 ]
+"114
+[v _mcu_temp_index mcu_temp_index `uc  1 e 1 0 ]
+"116
+[v _pid_index pid_index `uc  1 e 1 0 ]
+"118
+[v _index_01_count index_01_count `ui  1 e 2 0 ]
+"119
+[v _index_02_count index_02_count `ui  1 e 2 0 ]
+"120
+[v _index_03_count index_03_count `ui  1 e 2 0 ]
+"121
+[v _index_04_count index_04_count `ui  1 e 2 0 ]
+"122
+[v _index_05_count index_05_count `ui  1 e 2 0 ]
+"123
+[v _index_06_count index_06_count `ui  1 e 2 0 ]
+"33 D:\MCUProject\ZH-SL-S4080-1\src\uart.c
+[v _uart1_rx_buf uart1_rx_buf `[80]uc  1 e 80 0 ]
+"35
+[v _uart1_tx_buf uart1_tx_buf `[80]uc  1 e 80 0 ]
+"41
+[v _uart1_time_count uart1_time_count `uc  1 e 1 0 ]
+"43
+[v _uart1_receive_byte_count uart1_receive_byte_count `uc  1 e 1 0 ]
+"45
+[v _uart1_receive_flag uart1_receive_flag `E3177  1 e 1 0 ]
+"50
+[v _uart_send_delay_timer uart_send_delay_timer `uc  1 e 1 0 ]
+"52
+[v _uart_send_end_flag uart_send_end_flag `uc  1 e 1 0 ]
+"54
+[v _uart_send_byte_count uart_send_byte_count `uc  1 e 1 0 ]
+"56
+[v _uart_send_point uart_send_point `*.1uc  1 e 1 0 ]
+"59
+[v _rx_frame_kind rx_frame_kind `uc  1 e 1 0 ]
+[s S19 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+`uc 1 TRISA6 1 0 :1:6 
+`uc 1 TRISA7 1 0 :1:7 
+]
+"487 D:\Program Files (x86)\Microchip\xc8\v1.30\include\pic16f1938.h
+[u S28 . 1 `S19 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES28  1 e 1 @13 ]
+"548
+[v _PORTCbits PORTCbits `VES28  1 e 1 @14 ]
+"629
+[v _PIR1bits PIR1bits `VES28  1 e 1 @17 ]
+"774
+[v _TMR0 TMR0 `VEuc  1 e 1 @21 ]
+"799
+[v _TMR1L TMR1L `VEuc  1 e 1 @22 ]
+"818
+[v _TMR1H TMR1H `VEuc  1 e 1 @23 ]
+"837
+[v _T1CON T1CON `VEuc  1 e 1 @24 ]
+[s S1993 . 1 `uc 1 T1GSS0 1 0 :1:0 
+`uc 1 T1GSS1 1 0 :1:1 
+`uc 1 T1GVAL 1 0 :1:2 
+`uc 1 T1GGO_nDONE 1 0 :1:3 
+`uc 1 T1GSPM 1 0 :1:4 
+`uc 1 T1GTM 1 0 :1:5 
+`uc 1 T1GPOL 1 0 :1:6 
+`uc 1 TMR1GE 1 0 :1:7 
+]
+"930
+[s S2002 . 1 `uc 1 T1GSS 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 T1GGO 1 0 :1:3 
+]
+[u S2006 . 1 `S1993 1 . 1 0 `S2002 1 . 1 0 ]
+[v _T1GCONbits T1GCONbits `VES2006  1 e 1 @25 ]
+"1003
+[v _PR2 PR2 `VEuc  1 e 1 @27 ]
+[s S1504 . 1 `uc 1 T6CKPS0 1 0 :1:0 
+`uc 1 T6CKPS1 1 0 :1:1 
+`uc 1 TMR6ON 1 0 :1:2 
+`uc 1 T6OUTPS0 1 0 :1:3 
+`uc 1 T6OUTPS1 1 0 :1:4 
+`uc 1 T6OUTPS2 1 0 :1:5 
+`uc 1 T6OUTPS3 1 0 :1:6 
+]
+"1043
+[s S1512 . 1 `uc 1 T6CKPS 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 T6OUTPS 1 0 :4:3 
+]
+[u S1516 . 1 `S1504 1 . 1 0 `S1512 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES1516  1 e 1 @28 ]
+"1207
+[v _TRISAbits TRISAbits `VES28  1 e 1 @140 ]
+"1268
+[v _TRISBbits TRISBbits `VES28  1 e 1 @141 ]
+"1329
+[v _TRISCbits TRISCbits `VES28  1 e 1 @142 ]
+"1410
+[v _PIE1bits PIE1bits `VES28  1 e 1 @145 ]
+[s S669 . 1 `uc 1 PS0 1 0 :1:0 
+`uc 1 PS1 1 0 :1:1 
+`uc 1 PS2 1 0 :1:2 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 TMR0SE 1 0 :1:4 
+`uc 1 TMR0CS 1 0 :1:5 
+`uc 1 INTEDG 1 0 :1:6 
+`uc 1 nWPUEN 1 0 :1:7 
+]
+"1578
+[s S678 . 1 `uc 1 PS 1 0 :3:0 
+`uc 1 . 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+]
+[u S683 . 1 `S669 1 . 1 0 `S678 1 . 1 0 ]
+[v _OPTION_REGbits OPTION_REGbits `VES683  1 e 1 @149 ]
+[s S1058 . 1 `uc 1 SWDTEN 1 0 :1:0 
+`uc 1 WDTPS0 1 0 :1:1 
+`uc 1 WDTPS1 1 0 :1:2 
+`uc 1 WDTPS2 1 0 :1:3 
+`uc 1 WDTPS3 1 0 :1:4 
+`uc 1 WDTPS4 1 0 :1:5 
+]
+"1706
+[s S1065 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 WDTPS 1 0 :5:1 
+]
+[u S1068 . 1 `S1058 1 . 1 0 `S1065 1 . 1 0 ]
+[v _WDTCONbits WDTCONbits `VES1068  1 e 1 @151 ]
+"1802
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+"1940
+[v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
+"1959
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+[s S119 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+]
+"2007
+[s S127 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADGO 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+[s S131 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S134 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[u S137 . 1 `S119 1 . 1 0 `S127 1 . 1 0 `S131 1 . 1 0 `S134 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES137  1 e 1 @157 ]
+[s S61 . 1 `uc 1 ADPREF0 1 0 :1:0 
+`uc 1 ADPREF1 1 0 :1:1 
+`uc 1 ADNREF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCS0 1 0 :1:4 
+`uc 1 ADCS1 1 0 :1:5 
+`uc 1 ADCS2 1 0 :1:6 
+`uc 1 ADFM 1 0 :1:7 
+]
+"2088
+[s S70 . 1 `uc 1 ADPREF 1 0 :2:0 
+`uc 1 . 1 0 :2:2 
+`uc 1 ADCS 1 0 :3:4 
+]
+[u S74 . 1 `S61 1 . 1 0 `S70 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES74  1 e 1 @158 ]
+"2154
+[v _LATAbits LATAbits `VES28  1 e 1 @268 ]
+"2276
+[v _LATCbits LATCbits `VES28  1 e 1 @270 ]
+[s S91 . 1 `uc 1 ADFVR0 1 0 :1:0 
+`uc 1 ADFVR1 1 0 :1:1 
+`uc 1 CDAFVR0 1 0 :1:2 
+`uc 1 CDAFVR1 1 0 :1:3 
+`uc 1 TSRNG 1 0 :1:4 
+`uc 1 TSEN 1 0 :1:5 
+`uc 1 FVRRDY 1 0 :1:6 
+`uc 1 FVREN 1 0 :1:7 
+]
+"2654
+[s S100 . 1 `uc 1 ADFVR 1 0 :2:0 
+`uc 1 CDAFVR 1 0 :2:2 
+]
+[u S103 . 1 `S91 1 . 1 0 `S100 1 . 1 0 ]
+[v _FVRCONbits FVRCONbits `VES103  1 e 1 @279 ]
+[s S1420 . 1 `uc 1 CCP2SEL 1 0 :1:0 
+`uc 1 SSSEL 1 0 :1:1 
+`uc 1 C2OUTSEL 1 0 :1:2 
+`uc 1 SRNQSEL 1 0 :1:3 
+`uc 1 P2BSEL 1 0 :1:4 
+`uc 1 T1GSEL 1 0 :1:5 
+`uc 1 CCP3SEL 1 0 :1:6 
+]
+"2966
+[u S1428 . 1 `S1420 1 . 1 0 ]
+[v _APFCONbits APFCONbits `VES1428  1 e 1 @285 ]
+"3005
+[v _ANSELA ANSELA `VEuc  1 e 1 @396 ]
+"3062
+[v _ANSELB ANSELB `VEuc  1 e 1 @397 ]
+"3119
+[v _EEADR EEADR `VEus  1 e 2 @401 ]
+"3174
+[v _EEDATA EEDATA `VEuc  1 e 1 @403 ]
+"3225
+[v _EECON1 EECON1 `VEuc  1 e 1 @405 ]
+"3286
+[v _EECON2 EECON2 `VEuc  1 e 1 @406 ]
+"3305
+[v _RCREG RCREG `VEuc  1 e 1 @409 ]
+"3324
+[v _TXREG TXREG `VEuc  1 e 1 @410 ]
+"3349
+[v _SP1BRGL SP1BRGL `VEuc  1 e 1 @411 ]
+"3402
+[v _SP1BRGH SP1BRGH `VEuc  1 e 1 @412 ]
+"3439
+[v _RCSTA RCSTA `VEuc  1 e 1 @413 ]
+"3456
+[v _RCSTAbits RCSTAbits `VES28  1 e 1 @413 ]
+"3500
+[v _TXSTA TXSTA `VEuc  1 e 1 @414 ]
+"3517
+[v _TXSTAbits TXSTAbits `VES28  1 e 1 @414 ]
+"3561
+[v _BAUDCON BAUDCON `VEuc  1 e 1 @415 ]
+"4068
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @657 ]
+[s S1440 . 1 `uc 1 CCP1M0 1 0 :1:0 
+`uc 1 CCP1M1 1 0 :1:1 
+`uc 1 CCP1M2 1 0 :1:2 
+`uc 1 CCP1M3 1 0 :1:3 
+`uc 1 DC1B0 1 0 :1:4 
+`uc 1 DC1B1 1 0 :1:5 
+`uc 1 P1M0 1 0 :1:6 
+`uc 1 P1M1 1 0 :1:7 
+]
+"4128
+[s S1449 . 1 `uc 1 CCP1M 1 0 :4:0 
+`uc 1 DC1B 1 0 :2:4 
+`uc 1 P1M 1 0 :2:6 
+]
+[u S1453 . 1 `S1440 1 . 1 0 `S1449 1 . 1 0 ]
+[v _CCP1CONbits CCP1CONbits `VES1453  1 e 1 @659 ]
+[s S1470 . 1 `uc 1 C1TSEL0 1 0 :1:0 
+`uc 1 C1TSEL1 1 0 :1:1 
+`uc 1 C2TSEL0 1 0 :1:2 
+`uc 1 C2TSEL1 1 0 :1:3 
+`uc 1 C3TSEL0 1 0 :1:4 
+`uc 1 C3TSEL1 1 0 :1:5 
+`uc 1 C4TSEL0 1 0 :1:6 
+`uc 1 C4TSEL1 1 0 :1:7 
+]
+"4788
+[s S1479 . 1 `uc 1 C1TSEL 1 0 :2:0 
+`uc 1 C2TSEL 1 0 :2:2 
+`uc 1 C3TSEL 1 0 :2:4 
+`uc 1 C4TSEL 1 0 :2:6 
+]
+[u S1484 . 1 `S1470 1 . 1 0 `S1479 1 . 1 0 ]
+[v _CCPTMRS0bits CCPTMRS0bits `VES1484  1 e 1 @670 ]
+[s S1622 . 1 `uc 1 C5TSEL0 1 0 :1:0 
+`uc 1 C5TSEL1 1 0 :1:1 
+]
+"4866
+[s S1625 . 1 `uc 1 C5TSEL 1 0 :2:0 
+]
+[u S1627 . 1 `S1622 1 . 1 0 `S1625 1 . 1 0 ]
+[v _CCPTMRS1bits CCPTMRS1bits `VES1627  1 e 1 @671 ]
+"4891
+[v _CCPR3L CCPR3L `VEuc  1 e 1 @785 ]
+"4951
+[v _CCP3CONbits CCP3CONbits `VES1453  1 e 1 @787 ]
+"5319
+[v _CCPR5L CCPR5L `VEuc  1 e 1 @796 ]
+[s S1596 . 1 `uc 1 CCP5M0 1 0 :1:0 
+`uc 1 CCP5M1 1 0 :1:1 
+`uc 1 CCP5M2 1 0 :1:2 
+`uc 1 CCP5M3 1 0 :1:3 
+`uc 1 DC5B0 1 0 :1:4 
+`uc 1 DC5B1 1 0 :1:5 
+]
+"5377
+[s S1603 . 1 `uc 1 CCP5M 1 0 :4:0 
+`uc 1 DC5B 1 0 :2:4 
+`uc 1 P5M 1 0 :2:6 
+]
+[u S1607 . 1 `S1596 1 . 1 0 `S1603 1 . 1 0 ]
+[v _CCP5CONbits CCP5CONbits `VES1607  1 e 1 @798 ]
+[s S442 . 1 `uc 1 IOCBP0 1 0 :1:0 
+`uc 1 IOCBP1 1 0 :1:1 
+`uc 1 IOCBP2 1 0 :1:2 
+`uc 1 IOCBP3 1 0 :1:3 
+`uc 1 IOCBP4 1 0 :1:4 
+`uc 1 IOCBP5 1 0 :1:5 
+`uc 1 IOCBP6 1 0 :1:6 
+`uc 1 IOCBP7 1 0 :1:7 
+]
+"5431
+[s S451 . 1 `uc 1 IOCBP 1 0 :8:0 
+]
+[u S453 . 1 `S442 1 . 1 0 `S451 1 . 1 0 ]
+[v _IOCBPbits IOCBPbits `VES453  1 e 1 @916 ]
+"5500
+[v _IOCBNbits IOCBNbits `VES453  1 e 1 @917 ]
+"5569
+[v _IOCBFbits IOCBFbits `VES453  1 e 1 @918 ]
+"5637
+[v _PR4 PR4 `VEuc  1 e 1 @1046 ]
+"5677
+[v _T4CONbits T4CONbits `VES1516  1 e 1 @1047 ]
+"5745
+[v _PR6 PR6 `VEuc  1 e 1 @1053 ]
+"5785
+[v _T6CONbits T6CONbits `VES1516  1 e 1 @1054 ]
+"7019
+[v _ANSA0 ANSA0 `VEb  1 e 0 @3168 ]
+"7021
+[v _ANSA1 ANSA1 `VEb  1 e 0 @3169 ]
+"7023
+[v _ANSA2 ANSA2 `VEb  1 e 0 @3170 ]
+"7025
+[v _ANSA3 ANSA3 `VEb  1 e 0 @3171 ]
+"7029
+[v _ANSA5 ANSA5 `VEb  1 e 0 @3173 ]
+"7035
+[v _ANSB2 ANSB2 `VEb  1 e 0 @3178 ]
+"7037
+[v _ANSB3 ANSB3 `VEb  1 e 0 @3179 ]
+"7039
+[v _ANSB4 ANSB4 `VEb  1 e 0 @3180 ]
+"7138
+[v _CARRY CARRY `VEb  1 e 0 @24 ]
+"7353
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"7371
+[v _IOCBF0 IOCBF0 `VEb  1 e 0 @7344 ]
+"7373
+[v _IOCBF1 IOCBF1 `VEb  1 e 0 @7345 ]
+"7383
+[v _IOCBF6 IOCBF6 `VEb  1 e 0 @7350 ]
+"7385
+[v _IOCBF7 IOCBF7 `VEb  1 e 0 @7351 ]
+"7419
+[v _IOCIE IOCIE `VEb  1 e 0 @91 ]
+"7421
+[v _IOCIF IOCIF `VEb  1 e 0 @88 ]
+"7609
+[v _PEIE PEIE `VEb  1 e 0 @94 ]
+"7621
+[v _PSA PSA `VEb  1 e 0 @1195 ]
+"7661
+[v _RA7 RA7 `VEb  1 e 0 @103 ]
+"7681
+[v _RC1 RC1 `VEb  1 e 0 @113 ]
+"7690
+[v _RD RD `VEb  1 e 0 @3240 ]
+"7699
+[v _RCIE RCIE `VEb  1 e 0 @1165 ]
+"7701
+[v _RCIF RCIF `VEb  1 e 0 @141 ]
+"8065
+[v _TMR0CS TMR0CS `VEb  1 e 0 @1197 ]
+"8067
+[v _TMR0IE TMR0IE `VEb  1 e 0 @93 ]
+"8069
+[v _TMR0IF TMR0IF `VEb  1 e 0 @90 ]
+"8083
+[v _TMR1IE TMR1IE `VEb  1 e 0 @1160 ]
+"8085
+[v _TMR1IF TMR1IF `VEb  1 e 0 @136 ]
+"8087
+[v _TMR1ON TMR1ON `VEb  1 e 0 @192 ]
+"8091
+[v _TMR2IF TMR2IF `VEb  1 e 0 @137 ]
+"8093
+[v _TMR2ON TMR2ON `VEb  1 e 0 @226 ]
+"8097
+[v _TMR4IF TMR4IF `VEb  1 e 0 @153 ]
+"8099
+[v _TMR4ON TMR4ON `VEb  1 e 0 @8378 ]
+"8103
+[v _TMR6IF TMR6IF `VEb  1 e 0 @155 ]
+"8105
+[v _TMR6ON TMR6ON `VEb  1 e 0 @8434 ]
+"8181
+[v _TXIE TXIE `VEb  1 e 0 @1164 ]
+"8183
+[v _TXIF TXIF `VEb  1 e 0 @140 ]
+"8216
+[v _WR WR `VEb  1 e 0 @3241 ]
+"8218
+[v _WREN WREN `VEb  1 e 0 @3242 ]
+"370 D:\MCUProject\ZH-SL-S4080-1\src\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"446
+} 0
+"61 D:\MCUProject\ZH-SL-S4080-1\src\key.c
+[v _scan_key_value scan_key_value `(v  1 e 0 0 ]
+{
+"63
+[v scan_key_value@key_temp key_temp `ui  1 a 2 70 ]
+"410
+} 0
+"253 D:\MCUProject\ZH-SL-S4080-1\src\main.c
+[v _middle_init middle_init `(v  1 e 0 0 ]
+{
+"259
+} 0
+"179 D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c
+[v _read_param_eeprom read_param_eeprom `(v  1 e 0 0 ]
+{
+"181
+[v read_param_eeprom@byte_l byte_l `uc  1 a 1 50 ]
+[v read_param_eeprom@byte_h byte_h `uc  1 a 1 49 ]
+"458
+} 0
+"467
+[v _auto_system auto_system `(v  1 e 0 0 ]
+{
+"469
+[v auto_system@sys_bt_voltage sys_bt_voltage `f  1 a 3 68 ]
+"525
+} 0
+"232 D:\MCUProject\ZH-SL-S4080-1\src\uart.c
+[v _handle_uart_rx_buf handle_uart_rx_buf `(v  1 e 0 0 ]
+{
+"236
+[v handle_uart_rx_buf@crc_in crc_in `ui  1 a 2 67 ]
+"727
+} 0
+"6 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\pic\eeread.c
+[v _eeprom_read eeprom_read `(uc  1 e 1 0 ]
+{
+[v eeprom_read@addr addr `uc  1 a 1 wreg ]
+[v eeprom_read@addr addr `uc  1 a 1 wreg ]
+"9
+[v eeprom_read@addr addr `uc  1 a 1 3 ]
+"12
+} 0
+"75 D:\MCUProject\ZH-SL-S4080-1\src\Modbus.c
+[v _crc16 crc16 `(ui  1 e 2 0 ]
+{
+"79
+[v crc16@uIndex uIndex `ul  1 a 4 6 ]
+"78
+[v crc16@uchCRCLo uchCRCLo `uc  1 a 1 11 ]
+"77
+[v crc16@uchCRCHi uchCRCHi `uc  1 a 1 10 ]
+"75
+[v crc16@puchMsg puchMsg `*.39VEuc  1 p 2 3 ]
+[v crc16@usDataLen usDataLen `uc  1 p 1 5 ]
+"87
+} 0
+"2 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lmul.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+{
+"4
+[v ___lmul@product product `ul  1 a 4 11 ]
+"2
+[v ___lmul@multiplier multiplier `ul  1 p 4 3 ]
+[v ___lmul@multiplicand multiplicand `ul  1 p 4 7 ]
+"13
+} 0
+"27 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+{
+[v ___lbtoft@c c `uc  1 a 1 wreg ]
+[v ___lbtoft@c c `uc  1 a 1 wreg ]
+"29
+[v ___lbtoft@c c `uc  1 a 1 15 ]
+"30
+} 0
+"1568 D:\MCUProject\ZH-SL-S4080-1\src\task.c
+[v _handle_task_process handle_task_process `(v  1 e 0 0 ]
+{
+"2074
+} 0
+"132
+[v _handle_ad_loop handle_ad_loop `(v  1 e 0 0 ]
+{
+"135
+[v handle_ad_loop@data_cc_var data_cc_var `f  1 a 3 3 ]
+"1440
+} 0
+"1450
+[v _start_ad_convert start_ad_convert `(ui  1 e 2 0 ]
+{
+[v start_ad_convert@ch ch `uc  1 a 1 wreg ]
+"1458
+[v start_ad_convert@temp temp `ui  1 a 2 5 ]
+"1455
+[v start_ad_convert@ad_l ad_l `ui  1 a 2 3 ]
+[v start_ad_convert@ad_h ad_h `ui  1 a 2 1 ]
+"1453
+[v start_ad_convert@i i `uc  1 a 1 9 ]
+[v start_ad_convert@j j `uc  1 a 1 8 ]
+"1460
+[v start_ad_convert@ad_ch ad_ch `uc  1 a 1 7 ]
+"1450
+[v start_ad_convert@ch ch `uc  1 a 1 wreg ]
+[v start_ad_convert@ch ch `uc  1 a 1 0 ]
+"1557
+} 0
+"6 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 14 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 13 ]
+"6
+[v ___lwdiv@divisor divisor `ui  1 p 2 9 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 11 ]
+"31
+} 0
+"133 D:\MCUProject\ZH-SL-S4080-1\src\PID.c
+[v _pid_calc_2 pid_calc_2 `(f  1 e 3 0 ]
+{
+[s S1180 PID_VAR 21 `f 1 SetPoint 3 0 `f 1 Proportion 3 3 `f 1 Integral 3 6 `f 1 Derivative 3 9 `f 1 LastError 3 12 `f 1 PrevError 3 15 `f 1 SumError 3 18 ]
+[v pid_calc_2@pp pp `*.6S1180  1 a 1 wreg ]
+"137
+[v pid_calc_2@Error Error `f  1 a 3 16 ]
+"135
+[v pid_calc_2@PWM_var PWM_var `f  1 a 3 12 ]
+"139
+[v pid_calc_2@dk dk `f  1 a 3 9 ]
+"137
+[v pid_calc_2@dError dError `f  1 a 3 0 ]
+"133
+[v pid_calc_2@pp pp `*.6S1180  1 a 1 wreg ]
+[v pid_calc_2@NowPoint NowPoint `i  1 p 2 55 ]
+"141
+"133
+[v pid_calc_2@pp pp `*.6S1180  1 a 1 15 ]
+"238
+} 0
+"4 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\wmul.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"6
+[v ___wmul@product product `ui  1 a 2 7 ]
+"4
+[v ___wmul@multiplier multiplier `ui  1 p 2 3 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 5 ]
+"31
+} 0
+"6 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"11
+[v ___lldiv@quotient quotient `ul  1 a 4 11 ]
+"12
+[v ___lldiv@counter counter `uc  1 a 1 15 ]
+"6
+[v ___lldiv@divisor divisor `ul  1 p 4 3 ]
+[v ___lldiv@dividend dividend `ul  1 p 4 7 ]
+"31
+} 0
+"2077 D:\MCUProject\ZH-SL-S4080-1\src\task.c
+[v _Mppt_Charge Mppt_Charge `(v  1 e 0 0 ]
+{
+"2197
+} 0
+"24 D:\MCUProject\ZH-SL-S4080-1\src\PID.c
+[v _pid_calc pid_calc `(f  1 e 3 0 ]
+{
+"28
+[v pid_calc@Error Error `f  1 a 3 15 ]
+"26
+[v pid_calc@PWM_var PWM_var `f  1 a 3 12 ]
+"30
+[v pid_calc@dk dk `f  1 a 3 9 ]
+"28
+[v pid_calc@dError dError `f  1 a 3 0 ]
+[s S1180 PID_VAR 21 `f 1 SetPoint 3 0 `f 1 Proportion 3 3 `f 1 Integral 3 6 `f 1 Derivative 3 9 `f 1 LastError 3 12 `f 1 PrevError 3 15 `f 1 SumError 3 18 ]
+"24
+[v pid_calc@pp pp `*.39S1180  1 p 2 55 ]
+[v pid_calc@NowPoint NowPoint `i  1 p 2 57 ]
+"130
+} 0
+"18 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+{
+[v ___ftsub@f2 f2 `f  1 p 3 46 ]
+[v ___ftsub@f1 f1 `f  1 p 3 49 ]
+"25
+} 0
+"4 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+{
+[v ___ftge@ff1 ff1 `f  1 p 3 49 ]
+[v ___ftge@ff2 ff2 `f  1 p 3 52 ]
+"13
+} 0
+"32 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+{
+"34
+[v ___awtoft@sign sign `uc  1 a 1 14 ]
+"32
+[v ___awtoft@c c `i  1 p 2 11 ]
+"42
+} 0
+"28 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+{
+[v ___lwtoft@c c `ui  1 p 2 16 ]
+"31
+} 0
+"44 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+{
+"47
+[v ___fttol@lval lval `ul  1 a 4 57 ]
+"46
+[v ___fttol@exp1 exp1 `uc  1 a 1 61 ]
+[v ___fttol@sign1 sign1 `uc  1 a 1 56 ]
+"44
+[v ___fttol@f1 f1 `f  1 p 3 49 ]
+"73
+} 0
+"125 D:\MCUProject\ZH-SL-S4080-1\src\pwm.c
+[v _Enable_Buck_Pwm Enable_Buck_Pwm `(v  1 e 0 0 ]
+{
+"131
+} 0
+"221 D:\MCUProject\ZH-SL-S4080-1\src\main.c
+[v _driver_init driver_init `(v  1 e 0 0 ]
+{
+"242
+} 0
+"81 D:\MCUProject\ZH-SL-S4080-1\src\uart.c
+[v _init_uart1 init_uart1 `(v  1 e 0 0 ]
+{
+"109
+} 0
+"42 D:\MCUProject\ZH-SL-S4080-1\src\timer.c
+[v _init_timer1 init_timer1 `(v  1 e 0 0 ]
+{
+"54
+} 0
+"34 D:\MCUProject\ZH-SL-S4080-1\src\pwm.c
+[v _init_pwm init_pwm `(v  1 e 0 0 ]
+{
+"115
+} 0
+"174 D:\MCUProject\ZH-SL-S4080-1\src\main.c
+[v _init_port init_port `(v  1 e 0 0 ]
+{
+"210
+} 0
+"157
+[v _init_osc init_osc `(v  1 e 0 0 ]
+{
+"161
+} 0
+"45 D:\MCUProject\ZH-SL-S4080-1\src\key.c
+[v _init_key init_key `(v  1 e 0 0 ]
+{
+"53
+} 0
+"565 D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c
+[v _init_interrupt init_interrupt `(v  1 e 0 0 ]
+{
+"586
+} 0
+"41 D:\MCUProject\ZH-SL-S4080-1\src\adc.c
+[v _init_adc init_adc `(v  1 e 0 0 ]
+{
+"88
+} 0
+"528 D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c
+[v _Init_Ird Init_Ird `(v  1 e 0 0 ]
+{
+"562
+} 0
+"273 D:\MCUProject\ZH-SL-S4080-1\src\main.c
+[v _application_init application_init `(v  1 e 0 0 ]
+{
+"356
+} 0
+"243 D:\MCUProject\ZH-SL-S4080-1\src\PID.c
+[v _pid_init pid_init `(v  1 e 0 0 ]
+{
+[s S1180 PID_VAR 21 `f 1 SetPoint 3 0 `f 1 Proportion 3 3 `f 1 Integral 3 6 `f 1 Derivative 3 9 `f 1 LastError 3 12 `f 1 PrevError 3 15 `f 1 SumError 3 18 ]
+[v pid_init@pp pp `*.39S1180  1 p 2 11 ]
+"246
+} 0
+"8 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\memset.c
+[v _memset memset `(*.39v  1 e 1 0 ]
+{
+"15
+[v memset@p p `*.39uc  1 a 2 9 ]
+"8
+[v memset@p1 p1 `*.39v  1 p 2 3 ]
+[v memset@c c `i  1 p 2 5 ]
+[v memset@n n `ui  1 p 2 7 ]
+"22
+} 0
+"567 D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c
+[v _Key_Menu Key_Menu `(v  1 e 0 0 ]
+{
+"569
+[v Key_Menu@code code `uc  1 a 1 68 ]
+"567
+[v Key_Menu@key_value key_value `ul  1 p 4 64 ]
+"909
+} 0
+"6 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\pic\eewrite.c
+[v _eeprom_write eeprom_write `(v  1 e 0 0 ]
+{
+[v eeprom_write@addr addr `uc  1 a 1 wreg ]
+[v eeprom_write@addr addr `uc  1 a 1 wreg ]
+[v eeprom_write@value value `uc  1 p 1 62 ]
+[v eeprom_write@addr addr `uc  1 a 1 63 ]
+"9
+} 0
+"64 D:\MCUProject\ZH-SL-S4080-1\src\delay.c
+[v _delay_ms delay_ms `(v  1 e 0 0 ]
+{
+"66
+[v delay_ms@j j `us  1 a 2 7 ]
+[v delay_ms@i i `us  1 a 2 5 ]
+"64
+[v delay_ms@count count `us  1 p 2 3 ]
+"82
+} 0
+"157 D:\MCUProject\ZH-SL-S4080-1\src\pwm.c
+[v _Set_Buck_Pwm_Duty Set_Buck_Pwm_Duty `(v  1 e 0 0 ]
+{
+[v Set_Buck_Pwm_Duty@duty duty `ui  1 p 2 3 ]
+"176
+} 0
+"271
+[v _Set_Bost_Pwm2_Duty Set_Bost_Pwm2_Duty `(v  1 e 0 0 ]
+{
+[v Set_Bost_Pwm2_Duty@dduty dduty `ui  1 p 2 3 ]
+"291
+} 0
+"242
+[v _Set_Bost_Pwm1_Duty Set_Bost_Pwm1_Duty `(v  1 e 0 0 ]
+{
+[v Set_Bost_Pwm1_Duty@dduty dduty `ui  1 p 2 3 ]
+"262
+} 0
+"199
+[v _Enable_Bost_Pwm2 Enable_Bost_Pwm2 `(v  1 e 0 0 ]
+{
+"204
+} 0
+"186
+[v _Enable_Bost_Pwm1 Enable_Bost_Pwm1 `(v  1 e 0 0 ]
+{
+"191
+} 0
+"141
+[v _Disable_Buck_Pwm Disable_Buck_Pwm `(v  1 e 0 0 ]
+{
+"147
+} 0
+"228
+[v _Disable_Bost_Pwm2 Disable_Bost_Pwm2 `(v  1 e 0 0 ]
+{
+"234
+} 0
+"214
+[v _Disable_Bost_Pwm1 Disable_Bost_Pwm1 `(v  1 e 0 0 ]
+{
+"220
+} 0
+"51 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+{
+"54
+[v ___ftmul@f3_as_product f3_as_product `um  1 a 3 29 ]
+"53
+[v ___ftmul@sign sign `uc  1 a 1 33 ]
+[v ___ftmul@cntr cntr `uc  1 a 1 32 ]
+[v ___ftmul@exp exp `uc  1 a 1 28 ]
+"51
+[v ___ftmul@f1 f1 `f  1 p 3 19 ]
+[v ___ftmul@f2 f2 `f  1 p 3 22 ]
+"84
+} 0
+"49 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\pic\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+{
+"52
+[v ___ftdiv@f3 f3 `f  1 a 3 44 ]
+"51
+[v ___ftdiv@sign sign `uc  1 a 1 48 ]
+[v ___ftdiv@exp exp `uc  1 a 1 47 ]
+[v ___ftdiv@cntr cntr `uc  1 a 1 43 ]
+"49
+[v ___ftdiv@f2 f2 `f  1 p 3 34 ]
+[v ___ftdiv@f1 f1 `f  1 p 3 37 ]
+"78
+} 0
+"86 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+{
+"88
+[v ___ftadd@exp1 exp1 `uc  1 a 1 45 ]
+[v ___ftadd@exp2 exp2 `uc  1 a 1 44 ]
+[v ___ftadd@sign sign `uc  1 a 1 43 ]
+"86
+[v ___ftadd@f1 f1 `f  1 p 3 34 ]
+[v ___ftadd@f2 f2 `f  1 p 3 37 ]
+"148
+} 0
+"62 D:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 3 ]
+[v ___ftpack@exp exp `uc  1 p 1 6 ]
+[v ___ftpack@sign sign `uc  1 p 1 7 ]
+"86
+} 0
+"67 D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c
+[v _isr isr `II(v  1 e 0 0 ]
+{
+"447
+[v isr@time_cnt time_cnt `ui  1 a 2 1 ]
+"69
+[v isr@r1_data r1_data `uc  1 a 1 0 ]
+"550
+} 0
+"271 D:\MCUProject\ZH-SL-S4080-1\src\pwm.c
+[v i1_Set_Bost_Pwm2_Duty Set_Bost_Pwm2_Duty `(v  1 e 0 0 ]
+{
+[v i1Set_Bost_Pwm2_Duty@dduty dduty `ui  1 p 2 0 ]
+"291
+} 0
+"242
+[v i1_Set_Bost_Pwm1_Duty Set_Bost_Pwm1_Duty `(v  1 e 0 0 ]
+{
+[v i1Set_Bost_Pwm1_Duty@dduty dduty `ui  1 p 2 0 ]
+"262
+} 0
+"228
+[v i1_Disable_Bost_Pwm2 Disable_Bost_Pwm2 `(v  1 e 0 0 ]
+{
+"234
+} 0
+"214
+[v i1_Disable_Bost_Pwm1 Disable_Bost_Pwm1 `(v  1 e 0 0 ]
+{
+"220
+} 0

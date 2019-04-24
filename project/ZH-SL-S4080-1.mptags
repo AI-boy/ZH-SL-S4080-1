@@ -1,0 +1,481 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+AN0_CHANNEL::0b00000	D:\MCUProject\ZH-SL-S4080-1\include\adc.h	30;"	d	line:30
+AN0_TRIS::TRISAbits.TRISA0	D:\MCUProject\ZH-SL-S4080-1\include\adc.h	12;"	d	line:12
+AN10_CHANNEL::0b01010	D:\MCUProject\ZH-SL-S4080-1\include\adc.h	50;"	d	line:50
+AN11_CHANNEL::0b01011	D:\MCUProject\ZH-SL-S4080-1\include\adc.h	52;"	d	line:52
+AN11_TRIS::TRISBbits.TRISB4	D:\MCUProject\ZH-SL-S4080-1\include\adc.h	26;"	d	line:26
+AN12_CHANNEL::0b01100	D:\MCUProject\ZH-SL-S4080-1\include\adc.h	54;"	d	line:54
+AN1_CHANNEL::0b00001	D:\MCUProject\ZH-SL-S4080-1\include\adc.h	32;"	d	line:32
+AN1_TRIS::TRISAbits.TRISA1	D:\MCUProject\ZH-SL-S4080-1\include\adc.h	14;"	d	line:14
+AN2_CHANNEL::0b00010	D:\MCUProject\ZH-SL-S4080-1\include\adc.h	34;"	d	line:34
+AN2_TRIS::TRISAbits.TRISA2	D:\MCUProject\ZH-SL-S4080-1\include\adc.h	16;"	d	line:16
+AN3_CHANNEL::0b00011	D:\MCUProject\ZH-SL-S4080-1\include\adc.h	36;"	d	line:36
+AN3_TRIS::TRISAbits.TRISA3	D:\MCUProject\ZH-SL-S4080-1\include\adc.h	18;"	d	line:18
+AN4_CHANNEL::0b00100	D:\MCUProject\ZH-SL-S4080-1\include\adc.h	38;"	d	line:38
+AN4_TRIS::TRISAbits.TRISA5	D:\MCUProject\ZH-SL-S4080-1\include\adc.h	20;"	d	line:20
+AN5_CHANNEL::0b00101	D:\MCUProject\ZH-SL-S4080-1\include\adc.h	40;"	d	line:40
+AN6_CHANNEL::0b00110	D:\MCUProject\ZH-SL-S4080-1\include\adc.h	42;"	d	line:42
+AN7_CHANNEL::0b00111	D:\MCUProject\ZH-SL-S4080-1\include\adc.h	44;"	d	line:44
+AN8_CHANNEL::0b01000	D:\MCUProject\ZH-SL-S4080-1\include\adc.h	46;"	d	line:46
+AN8_TRIS::TRISBbits.TRISB2	D:\MCUProject\ZH-SL-S4080-1\include\adc.h	24;"	d	line:24
+AN9_CHANNEL::0b01001	D:\MCUProject\ZH-SL-S4080-1\include\adc.h	48;"	d	line:48
+AN9_TRIS::TRISBbits.TRISB3	D:\MCUProject\ZH-SL-S4080-1\include\adc.h	22;"	d	line:22
+AUT_MODE::0x50	D:\MCUProject\ZH-SL-S4080-1\include\ird_remote.h	159;"	d	line:159
+Adjust_Pout_Flag	D:\MCUProject\ZH-SL-S4080-1\src\task.c	95;"	v	line:95
+BATRGE_LED_OFF::(LATBbits.LATB4=0x00)	D:\MCUProject\ZH-SL-S4080-1\include\led.h	29;"	d	line:29
+BATRGE_LED_ON::(LATBbits.LATB4=0x01)	D:\MCUProject\ZH-SL-S4080-1\include\led.h	30;"	d	line:30
+BATRGE_LED_TOG::(LATBbits.LATB4^=0x01)	D:\MCUProject\ZH-SL-S4080-1\include\led.h	31;"	d	line:31
+BATRGE_LED_TRIS::(TRISBbits.TRISB4)	D:\MCUProject\ZH-SL-S4080-1\include\led.h	28;"	d	line:28
+BDRT::2400	D:\MCUProject\ZH-SL-S4080-1\include\uart.h	9;"	d	line:9
+BDRT_S_H::0x03	D:\MCUProject\ZH-SL-S4080-1\include\uart.h	10;"	d	line:10
+BDRT_S_L::0x40	D:\MCUProject\ZH-SL-S4080-1\include\uart.h	11;"	d	line:11
+BIT0::0	D:\MCUProject\ZH-SL-S4080-1\include\userdefine.h	27;"	d	line:27
+BIT1::1	D:\MCUProject\ZH-SL-S4080-1\include\userdefine.h	28;"	d	line:28
+BIT2::2	D:\MCUProject\ZH-SL-S4080-1\include\userdefine.h	29;"	d	line:29
+BIT3::3	D:\MCUProject\ZH-SL-S4080-1\include\userdefine.h	30;"	d	line:30
+BIT4::4	D:\MCUProject\ZH-SL-S4080-1\include\userdefine.h	31;"	d	line:31
+BIT5::5	D:\MCUProject\ZH-SL-S4080-1\include\userdefine.h	32;"	d	line:32
+BIT6::6	D:\MCUProject\ZH-SL-S4080-1\include\userdefine.h	33;"	d	line:33
+BIT7::7	D:\MCUProject\ZH-SL-S4080-1\include\userdefine.h	34;"	d	line:34
+BOST_PWM1_TRIS::TRISBbits.TRISB5	D:\MCUProject\ZH-SL-S4080-1\include\pwm.h	13;"	d	line:13
+BOST_PWM2_TRIS::TRISAbits.TRISA4	D:\MCUProject\ZH-SL-S4080-1\include\pwm.h	15;"	d	line:15
+BOST_PWM_MAX::488	D:\MCUProject\ZH-SL-S4080-1\include\pwm.h	23;"	d	line:23
+BOST_PWM_MIN::5	D:\MCUProject\ZH-SL-S4080-1\include\pwm.h	25;"	d	line:25
+BUCK_PWM_H_TRIS::TRISCbits.TRISC2	D:\MCUProject\ZH-SL-S4080-1\include\pwm.h	11;"	d	line:11
+BUCK_PWM_MAX::900	D:\MCUProject\ZH-SL-S4080-1\include\pwm.h	18;"	d	line:18
+BUCK_PWM_MIN::50	D:\MCUProject\ZH-SL-S4080-1\include\pwm.h	20;"	d	line:20
+CC_CV_Charge	D:\MCUProject\ZH-SL-S4080-1\include\task.h	155;"	p	line:155	signature:(void)
+CC_CV_Charge	D:\MCUProject\ZH-SL-S4080-1\src\task.c	2201;"	f	line:2201	signature:(void)
+CHARGE_LED_OFF::(LATCbits.LATC4=0x00)	D:\MCUProject\ZH-SL-S4080-1\include\led.h	14;"	d	line:14
+CHARGE_LED_ON::(LATCbits.LATC4=0x01)	D:\MCUProject\ZH-SL-S4080-1\include\led.h	15;"	d	line:15
+CHARGE_LED_TOG::(LATCbits.LATC4^=0x01)	D:\MCUProject\ZH-SL-S4080-1\include\led.h	16;"	d	line:16
+CHARGE_LED_TRIS::(TRISCbits.TRISC4)	D:\MCUProject\ZH-SL-S4080-1\include\led.h	13;"	d	line:13
+CRCHi	D:\MCUProject\ZH-SL-S4080-1\src\Modbus.c	10;"	v	line:10
+CRCLo	D:\MCUProject\ZH-SL-S4080-1\src\Modbus.c	40;"	v	line:40
+DISCHARGE_LED_OFF::(LATCbits.LATC5=0x00)	D:\MCUProject\ZH-SL-S4080-1\include\led.h	22;"	d	line:22
+DISCHARGE_LED_ON::(LATCbits.LATC5=0x01)	D:\MCUProject\ZH-SL-S4080-1\include\led.h	23;"	d	line:23
+DISCHARGE_LED_TOG::(LATCbits.LATC5^=0x01)	D:\MCUProject\ZH-SL-S4080-1\include\led.h	24;"	d	line:24
+DISCHARGE_LED_TRIS::(TRISCbits.TRISC5)	D:\MCUProject\ZH-SL-S4080-1\include\led.h	21;"	d	line:21
+DL_1_TRIS::TRISBbits.TRISB1	D:\MCUProject\ZH-SL-S4080-1\include\userdefine.h	62;"	d	line:62
+DL_2_TRIS::TRISBbits.TRISB0	D:\MCUProject\ZH-SL-S4080-1\include\userdefine.h	63;"	d	line:63
+Derivative	D:\MCUProject\ZH-SL-S4080-1\include\PID.h	19;"	m	line:19	struct:PID_VAR
+Disable_Bost_Pwm1	D:\MCUProject\ZH-SL-S4080-1\include\pwm.h	57;"	p	line:57	signature:(void)
+Disable_Bost_Pwm1	D:\MCUProject\ZH-SL-S4080-1\src\pwm.c	214;"	f	line:214	signature:(void)
+Disable_Bost_Pwm2	D:\MCUProject\ZH-SL-S4080-1\include\pwm.h	63;"	p	line:63	signature:(void)
+Disable_Bost_Pwm2	D:\MCUProject\ZH-SL-S4080-1\src\pwm.c	228;"	f	line:228	signature:(void)
+Disable_Buck_Pwm	D:\MCUProject\ZH-SL-S4080-1\include\pwm.h	51;"	p	line:51	signature:(void)
+Disable_Buck_Pwm	D:\MCUProject\ZH-SL-S4080-1\src\pwm.c	141;"	f	line:141	signature:(void)
+Enable_Bost_Pwm1	D:\MCUProject\ZH-SL-S4080-1\include\pwm.h	55;"	p	line:55	signature:(void)
+Enable_Bost_Pwm1	D:\MCUProject\ZH-SL-S4080-1\src\pwm.c	186;"	f	line:186	signature:(void)
+Enable_Bost_Pwm2	D:\MCUProject\ZH-SL-S4080-1\include\pwm.h	61;"	p	line:61	signature:(void)
+Enable_Bost_Pwm2	D:\MCUProject\ZH-SL-S4080-1\src\pwm.c	199;"	f	line:199	signature:(void)
+Enable_Buck_Pwm	D:\MCUProject\ZH-SL-S4080-1\include\pwm.h	49;"	p	line:49	signature:(void)
+Enable_Buck_Pwm	D:\MCUProject\ZH-SL-S4080-1\src\pwm.c	125;"	f	line:125	signature:(void)
+Error	D:\MCUProject\ZH-SL-S4080-1\src\PID.c	137;"	l	line:137
+Error	D:\MCUProject\ZH-SL-S4080-1\src\PID.c	28;"	l	line:28
+FRQ_SYS::32000000	D:\MCUProject\ZH-SL-S4080-1\include\uart.h	8;"	d	line:8
+HAN_MODE::0x00	D:\MCUProject\ZH-SL-S4080-1\include\ird_remote.h	153;"	d	line:153
+IRD_MODE::0x10	D:\MCUProject\ZH-SL-S4080-1\include\ird_remote.h	157;"	d	line:157
+I_prev	D:\MCUProject\ZH-SL-S4080-1\src\task.c	63;"	v	line:63
+Init_Ird	D:\MCUProject\ZH-SL-S4080-1\include\ird_remote.h	170;"	p	line:170	signature:(void)
+Init_Ird	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	528;"	f	line:528	signature:(void)
+Integral	D:\MCUProject\ZH-SL-S4080-1\include\PID.h	18;"	m	line:18	struct:PID_VAR
+K1	D:\MCUProject\ZH-SL-S4080-1\include\key.h	32;"	e	line:32	enum:KEY_CURRENT_VALUE
+K1_GET::(PORTBbits.RB6)	D:\MCUProject\ZH-SL-S4080-1\include\key.h	14;"	d	line:14
+K1_TRIS::(TRISBbits.TRISB6)	D:\MCUProject\ZH-SL-S4080-1\include\key.h	8;"	d	line:8
+K2	D:\MCUProject\ZH-SL-S4080-1\include\key.h	33;"	e	line:33	enum:KEY_CURRENT_VALUE
+K2_GET::(PORTCbits.RC6)	D:\MCUProject\ZH-SL-S4080-1\include\key.h	15;"	d	line:15
+K2_TRIS::(TRISCbits.TRISC6)	D:\MCUProject\ZH-SL-S4080-1\include\key.h	9;"	d	line:9
+K3	D:\MCUProject\ZH-SL-S4080-1\include\key.h	34;"	e	line:34	enum:KEY_CURRENT_VALUE
+K3_GET::(PORTCbits.RC5)	D:\MCUProject\ZH-SL-S4080-1\include\key.h	16;"	d	line:16
+K3_TRIS::(TRISCbits.TRISC5)	D:\MCUProject\ZH-SL-S4080-1\include\key.h	10;"	d	line:10
+K4	D:\MCUProject\ZH-SL-S4080-1\include\key.h	35;"	e	line:35	enum:KEY_CURRENT_VALUE
+K4_GET::(PORTCbits.RC4)	D:\MCUProject\ZH-SL-S4080-1\include\key.h	17;"	d	line:17
+K4_TRIS::(TRISCbits.TRISC4)	D:\MCUProject\ZH-SL-S4080-1\include\key.h	11;"	d	line:11
+KEY_CURRENT_STATE	D:\MCUProject\ZH-SL-S4080-1\include\key.h	23;"	g	line:23
+KEY_CURRENT_VALUE	D:\MCUProject\ZH-SL-S4080-1\include\key.h	29;"	g	line:29
+KEY_DOWN	D:\MCUProject\ZH-SL-S4080-1\include\key.h	26;"	e	line:26	enum:KEY_CURRENT_STATE
+KEY_STATE	D:\MCUProject\ZH-SL-S4080-1\src\key.c	15;"	v	line:15
+KEY_STATE_NU	D:\MCUProject\ZH-SL-S4080-1\include\key.h	27;"	t	line:27
+KEY_UP	D:\MCUProject\ZH-SL-S4080-1\include\key.h	25;"	e	line:25	enum:KEY_CURRENT_STATE
+KEY_VALUE	D:\MCUProject\ZH-SL-S4080-1\src\key.c	17;"	v	line:17
+KEY_VALUE_NU	D:\MCUProject\ZH-SL-S4080-1\include\key.h	36;"	t	line:36
+KNOP	D:\MCUProject\ZH-SL-S4080-1\include\key.h	31;"	e	line:31	enum:KEY_CURRENT_VALUE
+Key_Menu	D:\MCUProject\ZH-SL-S4080-1\include\ird_remote.h	172;"	p	line:172	signature:(unsigned long key_value)
+Key_Menu	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	567;"	f	line:567	signature:(unsigned long key_value)
+LOAD_OUT1_DISABLE::(LATCbits.LATC3=0x00)	D:\MCUProject\ZH-SL-S4080-1\include\userdefine.h	57;"	d	line:57
+LOAD_OUT1_ENABLE::(LATCbits.LATC3=0x01)	D:\MCUProject\ZH-SL-S4080-1\include\userdefine.h	56;"	d	line:56
+LOAD_OUT1_TRIS::TRISCbits.TRISC3	D:\MCUProject\ZH-SL-S4080-1\include\userdefine.h	53;"	d	line:53
+LOAD_OUT2_DISABLE::(LATCbits.LATC0=0x00)	D:\MCUProject\ZH-SL-S4080-1\include\userdefine.h	60;"	d	line:60
+LOAD_OUT2_ENABLE::(LATCbits.LATC0=0x01)	D:\MCUProject\ZH-SL-S4080-1\include\userdefine.h	59;"	d	line:59
+LOAD_OUT2_TRIS::TRISCbits.TRISC0	D:\MCUProject\ZH-SL-S4080-1\include\userdefine.h	54;"	d	line:54
+LastError	D:\MCUProject\ZH-SL-S4080-1\include\PID.h	20;"	m	line:20	struct:PID_VAR
+Load2_Pmax	D:\MCUProject\ZH-SL-S4080-1\include\ird_remote.h	122;"	v	line:122
+Load2_Pmax	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	152;"	v	line:152
+Load_Pmax	D:\MCUProject\ZH-SL-S4080-1\include\ird_remote.h	121;"	v	line:121
+Load_Pmax	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	151;"	v	line:151
+MAC_ADDR::0x55	D:\MCUProject\ZH-SL-S4080-1\include\userdefine.h	38;"	d	line:38
+MCU_CHANNEL::0b11101	D:\MCUProject\ZH-SL-S4080-1\include\adc.h	56;"	d	line:56
+Mppt_Charge	D:\MCUProject\ZH-SL-S4080-1\include\task.h	153;"	p	line:153	signature:(void)
+Mppt_Charge	D:\MCUProject\ZH-SL-S4080-1\src\task.c	2077;"	f	line:2077	signature:(void)
+N::11	D:\MCUProject\ZH-SL-S4080-1\include\adc.h	10;"	d	line:10
+ONF_MODE::0x88	D:\MCUProject\ZH-SL-S4080-1\include\ird_remote.h	162;"	d	line:162
+PERSON_CHECK1::RA7	D:\MCUProject\ZH-SL-S4080-1\include\userdefine.h	50;"	d	line:50
+PERSON_CHECK1_TRIS::TRISAbits.TRISA7	D:\MCUProject\ZH-SL-S4080-1\include\userdefine.h	47;"	d	line:47
+PERSON_CHECK2::RC1	D:\MCUProject\ZH-SL-S4080-1\include\userdefine.h	51;"	d	line:51
+PERSON_CHECK2_TRIS::TRISCbits.TRISC1	D:\MCUProject\ZH-SL-S4080-1\include\userdefine.h	48;"	d	line:48
+PID	D:\MCUProject\ZH-SL-S4080-1\include\PID.h	23;"	t	line:23
+PID_CC2_discharge	D:\MCUProject\ZH-SL-S4080-1\src\PID.c	20;"	v	line:20
+PID_CC_charge	D:\MCUProject\ZH-SL-S4080-1\src\PID.c	14;"	v	line:14
+PID_CC_discharge	D:\MCUProject\ZH-SL-S4080-1\src\PID.c	18;"	v	line:18
+PID_CV_charge	D:\MCUProject\ZH-SL-S4080-1\src\PID.c	16;"	v	line:16
+PID_VAR	D:\MCUProject\ZH-SL-S4080-1\include\PID.h	14;"	s	line:14
+POWER_OFF::(LATAbits.LATA6=0x00)	D:\MCUProject\ZH-SL-S4080-1\include\userdefine.h	69;"	d	line:69
+POWER_ON::(LATAbits.LATA6=0x01)	D:\MCUProject\ZH-SL-S4080-1\include\userdefine.h	68;"	d	line:68
+POWER_TRIS::TRISAbits.TRISA6	D:\MCUProject\ZH-SL-S4080-1\include\userdefine.h	67;"	d	line:67
+PWM	D:\MCUProject\ZH-SL-S4080-1\src\task.c	66;"	v	line:66
+PWM2	D:\MCUProject\ZH-SL-S4080-1\src\task.c	70;"	v	line:70
+PWM_I	D:\MCUProject\ZH-SL-S4080-1\src\task.c	68;"	v	line:68
+PWM_I2	D:\MCUProject\ZH-SL-S4080-1\src\task.c	72;"	v	line:72
+PWM_var	D:\MCUProject\ZH-SL-S4080-1\src\PID.c	135;"	l	line:135
+PWM_var	D:\MCUProject\ZH-SL-S4080-1\src\PID.c	26;"	l	line:26
+P_last	D:\MCUProject\ZH-SL-S4080-1\src\pwm.c	23;"	v	line:23
+P_prev	D:\MCUProject\ZH-SL-S4080-1\src\pwm.c	22;"	v	line:22
+PrevError	D:\MCUProject\ZH-SL-S4080-1\include\PID.h	21;"	m	line:21	struct:PID_VAR
+Proportion	D:\MCUProject\ZH-SL-S4080-1\include\PID.h	17;"	m	line:17	struct:PID_VAR
+STA_MODE::0x40	D:\MCUProject\ZH-SL-S4080-1\include\ird_remote.h	155;"	d	line:155
+SYSTEM_CHARGE_STATUS::0x01	D:\MCUProject\ZH-SL-S4080-1\include\task.h	30;"	d	line:30
+SYSTEM_DISCHARGE_STATUS::0x02	D:\MCUProject\ZH-SL-S4080-1\include\task.h	32;"	d	line:32
+SYSTEM_NOP_STATUS::0x00	D:\MCUProject\ZH-SL-S4080-1\include\task.h	28;"	d	line:28
+SetPoint	D:\MCUProject\ZH-SL-S4080-1\include\PID.h	16;"	m	line:16	struct:PID_VAR
+Set_Bost_Pwm1_Duty	D:\MCUProject\ZH-SL-S4080-1\include\pwm.h	59;"	p	line:59	signature:(unsigned int dduty)
+Set_Bost_Pwm1_Duty	D:\MCUProject\ZH-SL-S4080-1\src\pwm.c	242;"	f	line:242	signature:(unsigned int dduty)
+Set_Bost_Pwm2_Duty	D:\MCUProject\ZH-SL-S4080-1\include\pwm.h	65;"	p	line:65	signature:(unsigned int dduty)
+Set_Bost_Pwm2_Duty	D:\MCUProject\ZH-SL-S4080-1\src\pwm.c	271;"	f	line:271	signature:(unsigned int dduty)
+Set_Buck_Pwm_Duty	D:\MCUProject\ZH-SL-S4080-1\include\pwm.h	53;"	p	line:53	signature:(unsigned int duty)
+Set_Buck_Pwm_Duty	D:\MCUProject\ZH-SL-S4080-1\src\pwm.c	157;"	f	line:157	signature:(unsigned int duty)
+SumError	D:\MCUProject\ZH-SL-S4080-1\include\PID.h	22;"	m	line:22	struct:PID_VAR
+UART1_RX_TRIS::(TRISCbits.TRISC7)	D:\MCUProject\ZH-SL-S4080-1\include\uart.h	16;"	d	line:16
+UART1_TX_TRIS::(TRISCbits.TRISC6)	D:\MCUProject\ZH-SL-S4080-1\include\uart.h	15;"	d	line:15
+ZH_MAC::0x10ED	D:\MCUProject\ZH-SL-S4080-1\include\ird_remote.h	151;"	d	line:151
+_IRD_REMOTE_H	D:\MCUProject\ZH-SL-S4080-1\include\ird_remote.h	2;"	d	line:2
+_MODBUS_H	D:\MCUProject\ZH-SL-S4080-1\include\Modbus.h	2;"	d	line:2
+_USERDEFINE_H	D:\MCUProject\ZH-SL-S4080-1\include\userdefine.h	2;"	d	line:2
+_XTAL_FREQ::32000000	D:\MCUProject\ZH-SL-S4080-1\include\userdefine.h	41;"	d	line:41
+_ZH_ADC_H	D:\MCUProject\ZH-SL-S4080-1\include\adc.h	3;"	d	line:3
+_ZH_DELAY_H	D:\MCUProject\ZH-SL-S4080-1\include\delay.h	3;"	d	line:3
+_ZH_INTERRUPT_H	D:\MCUProject\ZH-SL-S4080-1\include\interrupt.h	3;"	d	line:3
+_ZH_KEY_H	D:\MCUProject\ZH-SL-S4080-1\include\key.h	3;"	d	line:3
+_ZH_LED_H	D:\MCUProject\ZH-SL-S4080-1\include\led.h	3;"	d	line:3
+_ZH_PWM_H	D:\MCUProject\ZH-SL-S4080-1\include\pwm.h	4;"	d	line:4
+_ZH_TASK_H	D:\MCUProject\ZH-SL-S4080-1\include\task.h	3;"	d	line:3
+_ZH_TIMER_H	D:\MCUProject\ZH-SL-S4080-1\include\timer.h	3;"	d	line:3
+_ZH_UART_H	D:\MCUProject\ZH-SL-S4080-1\include\uart.h	3;"	d	line:3
+__PID_H	D:\MCUProject\ZH-SL-S4080-1\include\PID.h	2;"	d	line:2
+ad_ch	D:\MCUProject\ZH-SL-S4080-1\src\task.c	1460;"	l	line:1460
+ad_h	D:\MCUProject\ZH-SL-S4080-1\src\task.c	1455;"	l	line:1455
+ad_l	D:\MCUProject\ZH-SL-S4080-1\src\task.c	1455;"	l	line:1455
+adc_buffer	D:\MCUProject\ZH-SL-S4080-1\src\adc.c	29;"	v	line:29
+an0_time_count	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	16;"	v	line:16
+an11_time_count	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	50;"	v	line:50
+an1_time_count	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	21;"	v	line:21
+an2_time_count	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	26;"	v	line:26
+an3_time_count	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	31;"	v	line:31
+an4_time_count	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	36;"	v	line:36
+an8_time_count	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	46;"	v	line:46
+an9_time_count	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	41;"	v	line:41
+application_init	D:\MCUProject\ZH-SL-S4080-1\src\main.c	273;"	f	line:273	signature:(void)
+auto_system	D:\MCUProject\ZH-SL-S4080-1\include\ird_remote.h	166;"	p	line:166	signature:(void)
+auto_system	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	467;"	f	line:467	signature:(void)
+b_v	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	35;"	v	line:35
+battery_low_time_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	50;"	v	line:50
+battery_voltage_status	D:\MCUProject\ZH-SL-S4080-1\src\task.c	26;"	v	line:26
+battery_voltage_value	D:\MCUProject\ZH-SL-S4080-1\src\adc.c	16;"	v	line:16
+bost_pwm1_value	D:\MCUProject\ZH-SL-S4080-1\src\pwm.c	15;"	v	line:15
+bost_pwm2_value	D:\MCUProject\ZH-SL-S4080-1\src\pwm.c	17;"	v	line:17
+bt_00_hv	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	47;"	v	line:47
+bt_00_lv	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	48;"	v	line:48
+bt_01_hv	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	50;"	v	line:50
+bt_01_lv	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	51;"	v	line:51
+bt_02_hv	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	53;"	v	line:53
+bt_02_lv	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	54;"	v	line:54
+bt_03_hv	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	56;"	v	line:56
+bt_03_lv	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	57;"	v	line:57
+bt_04_hv	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	59;"	v	line:59
+bt_04_lv	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	60;"	v	line:60
+bt_05_hv	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	62;"	v	line:62
+bt_05_lv	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	63;"	v	line:63
+bt_06_hv	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	65;"	v	line:65
+bt_06_lv	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	66;"	v	line:66
+bt_07_hv	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	68;"	v	line:68
+bt_07_lv	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	69;"	v	line:69
+bt_id	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	101;"	v	line:101
+bt_led_status	D:\MCUProject\ZH-SL-S4080-1\src\task.c	87;"	v	line:87
+bt_prev	D:\MCUProject\ZH-SL-S4080-1\src\task.c	108;"	v	line:108
+bt_time_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	91;"	v	line:91
+bt_volt_00	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	118;"	v	line:118
+bt_volt_100	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	108;"	v	line:108
+bt_volt_20	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	116;"	v	line:116
+bt_volt_40	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	114;"	v	line:114
+bt_volt_60	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	112;"	v	line:112
+bt_volt_80	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	110;"	v	line:110
+buck_pwm_value	D:\MCUProject\ZH-SL-S4080-1\src\pwm.c	13;"	v	line:13
+buf	D:\MCUProject\ZH-SL-S4080-1\src\task.c	13;"	v	line:13
+byte_h	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	181;"	l	line:181
+byte_h	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	238;"	l	line:238
+byte_l	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	181;"	l	line:181
+byte_l	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	238;"	l	line:238
+charge_I	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	39;"	v	line:39
+charge_current_value	D:\MCUProject\ZH-SL-S4080-1\src\adc.c	20;"	v	line:20
+charge_i_limit	D:\MCUProject\ZH-SL-S4080-1\include\ird_remote.h	106;"	v	line:106
+charge_i_limit	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	132;"	v	line:132
+charge_index	D:\MCUProject\ZH-SL-S4080-1\src\task.c	34;"	v	line:34
+charge_led_status	D:\MCUProject\ZH-SL-S4080-1\src\task.c	85;"	v	line:85
+charge_r_value	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	147;"	v	line:147
+code	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	569;"	l	line:569
+crc16	D:\MCUProject\ZH-SL-S4080-1\include\Modbus.h	26;"	p	line:26	signature:(volatile unsigned char *puchMsg, unsigned char usDataLen)
+crc16	D:\MCUProject\ZH-SL-S4080-1\src\Modbus.c	75;"	f	line:75	signature:(volatile unsigned char *puchMsg, unsigned char usDataLen)
+crc_data	D:\MCUProject\ZH-SL-S4080-1\src\Modbus.c	7;"	v	line:7
+crc_in	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	236;"	l	line:236
+cv_level_time_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	39;"	v	line:39
+dError	D:\MCUProject\ZH-SL-S4080-1\src\PID.c	137;"	l	line:137
+dError	D:\MCUProject\ZH-SL-S4080-1\src\PID.c	28;"	l	line:28
+data	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	165;"	l	line:165
+data	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	182;"	l	line:182
+data_cc_var	D:\MCUProject\ZH-SL-S4080-1\src\task.c	135;"	l	line:135
+day_time_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	55;"	v	line:55
+delay_1us	D:\MCUProject\ZH-SL-S4080-1\include\delay.h	17;"	p	line:17	signature:(void)
+delay_1us	D:\MCUProject\ZH-SL-S4080-1\src\delay.c	41;"	f	line:41	signature:(void)
+delay_ms	D:\MCUProject\ZH-SL-S4080-1\include\delay.h	19;"	p	line:19	signature:(WORD count)
+delay_ms	D:\MCUProject\ZH-SL-S4080-1\src\delay.c	64;"	f	line:64	signature:(WORD count)
+device_status	D:\MCUProject\ZH-SL-S4080-1\src\key.c	32;"	v	line:32
+dianchi_cv_level	D:\MCUProject\ZH-SL-S4080-1\include\ird_remote.h	104;"	v	line:104
+dianchi_cv_level	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	130;"	v	line:130
+dianchi_guoya_baohu	D:\MCUProject\ZH-SL-S4080-1\include\ird_remote.h	96;"	v	line:96
+dianchi_guoya_baohu	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	122;"	v	line:122
+dianchi_guoya_huifu	D:\MCUProject\ZH-SL-S4080-1\include\ird_remote.h	98;"	v	line:98
+dianchi_guoya_huifu	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	124;"	v	line:124
+dianchi_qianya_baohu	D:\MCUProject\ZH-SL-S4080-1\include\ird_remote.h	100;"	v	line:100
+dianchi_qianya_baohu	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	126;"	v	line:126
+dianchi_qianya_huifu	D:\MCUProject\ZH-SL-S4080-1\include\ird_remote.h	102;"	v	line:102
+dianchi_qianya_huifu	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	128;"	v	line:128
+discharge1_index	D:\MCUProject\ZH-SL-S4080-1\src\task.c	31;"	v	line:31
+discharge2_index	D:\MCUProject\ZH-SL-S4080-1\src\task.c	32;"	v	line:32
+discharge_current2_value	D:\MCUProject\ZH-SL-S4080-1\src\adc.c	26;"	v	line:26
+discharge_current_value	D:\MCUProject\ZH-SL-S4080-1\src\adc.c	22;"	v	line:22
+discharge_i_baohu	D:\MCUProject\ZH-SL-S4080-1\include\ird_remote.h	112;"	v	line:112
+discharge_i_baohu	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	138;"	v	line:138
+discharge_i_limit	D:\MCUProject\ZH-SL-S4080-1\include\ird_remote.h	114;"	v	line:114
+discharge_i_limit	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	140;"	v	line:140
+discharge_led_status	D:\MCUProject\ZH-SL-S4080-1\src\task.c	89;"	v	line:89
+discharge_r_value	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	149;"	v	line:149
+dk	D:\MCUProject\ZH-SL-S4080-1\src\PID.c	139;"	l	line:139
+dk	D:\MCUProject\ZH-SL-S4080-1\src\PID.c	30;"	l	line:30
+driver_init	D:\MCUProject\ZH-SL-S4080-1\src\main.c	221;"	f	line:221	signature:(void)
+handle_ad_loop	D:\MCUProject\ZH-SL-S4080-1\include\task.h	147;"	p	line:147	signature:(void)
+handle_ad_loop	D:\MCUProject\ZH-SL-S4080-1\src\task.c	132;"	f	line:132	signature:(void)
+handle_an0_process_flag	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	17;"	v	line:17
+handle_an11_process_flag	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	51;"	v	line:51
+handle_an1_process_flag	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	22;"	v	line:22
+handle_an2_process_flag	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	27;"	v	line:27
+handle_an3_process_flag	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	32;"	v	line:32
+handle_an4_process_flag	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	37;"	v	line:37
+handle_an8_process_flag	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	47;"	v	line:47
+handle_an9_process_flag	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	42;"	v	line:42
+handle_even_check	D:\MCUProject\ZH-SL-S4080-1\include\uart.h	34;"	p	line:34	signature:(unsigned char databyte)
+handle_even_check	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	203;"	f	line:203	signature:(unsigned char databyte)
+handle_scan_key_flag	D:\MCUProject\ZH-SL-S4080-1\src\key.c	22;"	v	line:22
+handle_short1_flag	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	53;"	v	line:53
+handle_short2_flag	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	54;"	v	line:54
+handle_task_process	D:\MCUProject\ZH-SL-S4080-1\include\task.h	149;"	p	line:149	signature:(void)
+handle_task_process	D:\MCUProject\ZH-SL-S4080-1\src\task.c	1568;"	f	line:1568	signature:(void)
+handle_uart_rx_buf	D:\MCUProject\ZH-SL-S4080-1\include\uart.h	36;"	p	line:36	signature:(void)
+handle_uart_rx_buf	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	232;"	f	line:232	signature:(void)
+have_person1_flag	D:\MCUProject\ZH-SL-S4080-1\src\key.c	24;"	v	line:24
+have_person1_time_count	D:\MCUProject\ZH-SL-S4080-1\src\key.c	26;"	v	line:26
+have_person2_flag	D:\MCUProject\ZH-SL-S4080-1\src\key.c	28;"	v	line:28
+have_person2_time_count	D:\MCUProject\ZH-SL-S4080-1\src\key.c	30;"	v	line:30
+ho_cnt	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	13;"	v	line:13
+i	D:\MCUProject\ZH-SL-S4080-1\src\delay.c	66;"	l	line:66
+i	D:\MCUProject\ZH-SL-S4080-1\src\task.c	1453;"	l	line:1453
+i	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	181;"	l	line:181
+i	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	205;"	l	line:205
+i	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	234;"	l	line:234
+index_01_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	118;"	v	line:118
+index_02_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	119;"	v	line:119
+index_03_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	120;"	v	line:120
+index_04_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	121;"	v	line:121
+index_05_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	122;"	v	line:122
+index_06_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	123;"	v	line:123
+init_adc	D:\MCUProject\ZH-SL-S4080-1\include\adc.h	85;"	p	line:85	signature:(void)
+init_adc	D:\MCUProject\ZH-SL-S4080-1\src\adc.c	41;"	f	line:41	signature:(void)
+init_interrupt	D:\MCUProject\ZH-SL-S4080-1\include\interrupt.h	12;"	p	line:12	signature:(void)
+init_interrupt	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	565;"	f	line:565	signature:(void)
+init_key	D:\MCUProject\ZH-SL-S4080-1\include\key.h	72;"	p	line:72	signature:(void)
+init_key	D:\MCUProject\ZH-SL-S4080-1\src\key.c	45;"	f	line:45	signature:(void)
+init_led	D:\MCUProject\ZH-SL-S4080-1\include\led.h	43;"	p	line:43	signature:(void)
+init_led	D:\MCUProject\ZH-SL-S4080-1\src\led.c	26;"	f	line:26	signature:(void)
+init_osc	D:\MCUProject\ZH-SL-S4080-1\src\main.c	157;"	f	line:157	signature:(void)
+init_port	D:\MCUProject\ZH-SL-S4080-1\src\main.c	174;"	f	line:174	signature:(void)
+init_pwm	D:\MCUProject\ZH-SL-S4080-1\include\pwm.h	47;"	p	line:47	signature:(void)
+init_pwm	D:\MCUProject\ZH-SL-S4080-1\src\pwm.c	34;"	f	line:34	signature:(void)
+init_timer1	D:\MCUProject\ZH-SL-S4080-1\include\timer.h	15;"	p	line:15	signature:(void)
+init_timer1	D:\MCUProject\ZH-SL-S4080-1\src\timer.c	42;"	f	line:42	signature:(void)
+init_uart1	D:\MCUProject\ZH-SL-S4080-1\include\uart.h	24;"	p	line:24	signature:(void)
+init_uart1	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	81;"	f	line:81	signature:(void)
+involid_time_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	38;"	v	line:38
+ird_data	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	163;"	v	line:163
+ird_receive_flag	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	159;"	v	line:159
+ird_receive_time_count	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	161;"	v	line:161
+ird_status	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	155;"	v	line:155
+isr	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	67;"	f	line:67	signature:(void)
+j	D:\MCUProject\ZH-SL-S4080-1\src\delay.c	66;"	l	line:66
+j	D:\MCUProject\ZH-SL-S4080-1\src\task.c	1453;"	l	line:1453
+k	D:\MCUProject\ZH-SL-S4080-1\src\task.c	1453;"	l	line:1453
+key1_index	D:\MCUProject\ZH-SL-S4080-1\src\key.c	36;"	v	line:36
+key1_time_count	D:\MCUProject\ZH-SL-S4080-1\src\key.c	34;"	v	line:34
+key_temp	D:\MCUProject\ZH-SL-S4080-1\src\key.c	63;"	l	line:63
+led_out_ctrl	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	170;"	v	line:170
+light2_mode	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	168;"	v	line:168
+light_mode	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	167;"	v	line:167
+light_off_pv_level	D:\MCUProject\ZH-SL-S4080-1\include\ird_remote.h	118;"	v	line:118
+light_off_pv_level	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	144;"	v	line:144
+light_on_pv_level	D:\MCUProject\ZH-SL-S4080-1\include\ird_remote.h	116;"	v	line:116
+light_on_pv_level	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	142;"	v	line:142
+light_pv	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	73;"	v	line:73
+light_time	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	103;"	v	line:103
+light_time_level	D:\MCUProject\ZH-SL-S4080-1\src\task.c	59;"	v	line:59
+limit_power_pid2_flag	D:\MCUProject\ZH-SL-S4080-1\src\task.c	100;"	v	line:100
+limit_power_pid_flag	D:\MCUProject\ZH-SL-S4080-1\src\task.c	99;"	v	line:99
+load1_voltage_status	D:\MCUProject\ZH-SL-S4080-1\src\task.c	28;"	v	line:28
+load2_open_time_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	45;"	v	line:45
+load2_short_time_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	42;"	v	line:42
+load2_voltage_status	D:\MCUProject\ZH-SL-S4080-1\src\task.c	29;"	v	line:29
+load_I	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	41;"	v	line:41
+load_cc_I	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	75;"	v	line:75
+load_open_time_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	44;"	v	line:44
+load_percent	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	77;"	v	line:77
+load_short_time_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	41;"	v	line:41
+load_v	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	37;"	v	line:37
+load_voltage2_value	D:\MCUProject\ZH-SL-S4080-1\src\adc.c	24;"	v	line:24
+load_voltage_value	D:\MCUProject\ZH-SL-S4080-1\src\adc.c	18;"	v	line:18
+lr_cnt	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	169;"	v	line:169
+main	D:\MCUProject\ZH-SL-S4080-1\src\main.c	370;"	f	line:370	signature:(void)
+mcu_t00_time_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	110;"	v	line:110
+mcu_t01_time_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	111;"	v	line:111
+mcu_t02_time_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	112;"	v	line:112
+mcu_t03_time_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	113;"	v	line:113
+mcu_temp_index	D:\MCUProject\ZH-SL-S4080-1\src\task.c	114;"	v	line:114
+mcu_value	D:\MCUProject\ZH-SL-S4080-1\src\adc.c	10;"	v	line:10
+mi_cnt	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	12;"	v	line:12
+middle_init	D:\MCUProject\ZH-SL-S4080-1\src\main.c	253;"	f	line:253	signature:(void)
+mppt_status	D:\MCUProject\ZH-SL-S4080-1\src\task.c	75;"	v	line:75
+mppt_time_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	77;"	v	line:77
+ms_cnt	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	10;"	v	line:10
+night_time_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	53;"	v	line:53
+nop_index	D:\MCUProject\ZH-SL-S4080-1\src\task.c	36;"	v	line:36
+num	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	207;"	l	line:207
+open_an0_time	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	15;"	v	line:15
+open_an11_time	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	49;"	v	line:49
+open_an1_time	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	20;"	v	line:20
+open_an2_time	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	25;"	v	line:25
+open_an3_time	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	30;"	v	line:30
+open_an4_time	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	35;"	v	line:35
+open_an8_time	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	45;"	v	line:45
+open_an9_time	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	40;"	v	line:40
+open_discharge_time	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	9;"	v	line:9
+open_sleep_time	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	58;"	v	line:58
+over_load1_time_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	47;"	v	line:47
+over_load2_time_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	48;"	v	line:48
+over_temper_time_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	81;"	v	line:81
+p_v	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	33;"	v	line:33
+pid_calc	D:\MCUProject\ZH-SL-S4080-1\include\PID.h	38;"	p	line:38	signature:( PID *pp, int NowPoint )
+pid_calc	D:\MCUProject\ZH-SL-S4080-1\src\PID.c	24;"	f	line:24	signature:( PID *pp, int NowPoint )
+pid_calc_2	D:\MCUProject\ZH-SL-S4080-1\include\PID.h	40;"	p	line:40	signature:( PID *pp, int NowPoint )
+pid_calc_2	D:\MCUProject\ZH-SL-S4080-1\src\PID.c	133;"	f	line:133	signature:( PID *pp, int NowPoint )
+pid_index	D:\MCUProject\ZH-SL-S4080-1\src\task.c	116;"	v	line:116
+pid_init	D:\MCUProject\ZH-SL-S4080-1\include\PID.h	36;"	p	line:36	signature:(PID *pp)
+pid_init	D:\MCUProject\ZH-SL-S4080-1\src\PID.c	243;"	f	line:243	signature:( PID *pp)
+pv_index	D:\MCUProject\ZH-SL-S4080-1\src\task.c	93;"	v	line:93
+pv_prev	D:\MCUProject\ZH-SL-S4080-1\src\task.c	61;"	v	line:61
+pv_time_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	57;"	v	line:57
+pv_voltage_status	D:\MCUProject\ZH-SL-S4080-1\src\task.c	24;"	v	line:24
+pv_voltage_value	D:\MCUProject\ZH-SL-S4080-1\src\adc.c	14;"	v	line:14
+pwm_duty_value	D:\MCUProject\ZH-SL-S4080-1\src\pwm.c	11;"	v	line:11
+r1_data	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	69;"	l	line:69
+r2_data	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	69;"	l	line:69
+read_param_eeprom	D:\MCUProject\ZH-SL-S4080-1\include\ird_remote.h	168;"	p	line:168	signature:(void)
+read_param_eeprom	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	179;"	f	line:179	signature:(void)
+receive_bit_count	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	157;"	v	line:157
+remote_mac	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	571;"	l	line:571
+rx_frame_kind	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	59;"	v	line:59
+scan_key_time_count	D:\MCUProject\ZH-SL-S4080-1\src\key.c	20;"	v	line:20
+scan_key_value	D:\MCUProject\ZH-SL-S4080-1\include\key.h	74;"	p	line:74	signature:(void)
+scan_key_value	D:\MCUProject\ZH-SL-S4080-1\src\key.c	61;"	f	line:61	signature:(void)
+se_cnt	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	11;"	v	line:11
+set_1HZ_flag	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	56;"	v	line:56
+shuchu_open_voltage	D:\MCUProject\ZH-SL-S4080-1\include\ird_remote.h	110;"	v	line:110
+shuchu_open_voltage	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	136;"	v	line:136
+shuchu_shortout_voltage	D:\MCUProject\ZH-SL-S4080-1\include\ird_remote.h	108;"	v	line:108
+shuchu_shortout_voltage	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	134;"	v	line:134
+sleep_time_count	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	59;"	v	line:59
+start_ad_convert	D:\MCUProject\ZH-SL-S4080-1\include\task.h	151;"	p	line:151	signature:(unsigned char ch)
+start_ad_convert	D:\MCUProject\ZH-SL-S4080-1\src\task.c	1450;"	f	line:1450	signature:(unsigned char ch)
+step_01_load_percent	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	79;"	v	line:79
+step_01_time_limit	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	89;"	v	line:89
+step_02_load_percent	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	81;"	v	line:81
+step_02_time_limit	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	91;"	v	line:91
+step_03_load_percent	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	83;"	v	line:83
+step_03_time_limit	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	93;"	v	line:93
+step_04_load_percent	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	85;"	v	line:85
+step_04_time_limit	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	95;"	v	line:95
+step_05_load_percent	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	87;"	v	line:87
+step_05_time_limit	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	97;"	v	line:97
+sys_bt_voltage	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	469;"	l	line:469
+sys_mode	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	43;"	v	line:43
+sys_temper_flag	D:\MCUProject\ZH-SL-S4080-1\src\task.c	83;"	v	line:83
+system_check_time	D:\MCUProject\ZH-SL-S4080-1\src\task.c	17;"	v	line:17
+system_status	D:\MCUProject\ZH-SL-S4080-1\src\task.c	15;"	v	line:15
+system_time_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	19;"	v	line:19
+t1	D:\MCUProject\ZH-SL-S4080-1\src\task.c	102;"	v	line:102
+t2	D:\MCUProject\ZH-SL-S4080-1\src\task.c	103;"	v	line:103
+t3	D:\MCUProject\ZH-SL-S4080-1\src\task.c	104;"	v	line:104
+t4	D:\MCUProject\ZH-SL-S4080-1\src\task.c	105;"	v	line:105
+t5	D:\MCUProject\ZH-SL-S4080-1\src\task.c	106;"	v	line:106
+temp	D:\MCUProject\ZH-SL-S4080-1\src\task.c	1458;"	l	line:1458
+temper_time_count	D:\MCUProject\ZH-SL-S4080-1\src\task.c	79;"	v	line:79
+temperature_value	D:\MCUProject\ZH-SL-S4080-1\src\adc.c	12;"	v	line:12
+time_cnt	D:\MCUProject\ZH-SL-S4080-1\src\interrupt.c	447;"	l	line:447
+today_index	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	45;"	v	line:45
+tx_frame_kind	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	61;"	v	line:61
+uIndex	D:\MCUProject\ZH-SL-S4080-1\src\Modbus.c	79;"	l	line:79
+uart1_read_byte	D:\MCUProject\ZH-SL-S4080-1\include\uart.h	30;"	p	line:30	signature:(void)
+uart1_read_byte	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	163;"	f	line:163	signature:(void)
+uart1_read_nbyte	D:\MCUProject\ZH-SL-S4080-1\include\uart.h	32;"	p	line:32	signature:(BYTE *buffer,BYTE length)
+uart1_read_nbyte	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	179;"	f	line:179	signature:(BYTE *buffer,BYTE length)
+uart1_receive_byte_count	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	43;"	v	line:43
+uart1_receive_flag	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	45;"	v	line:45
+uart1_rx_buf	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	33;"	v	line:33
+uart1_rx_control_flag	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	47;"	v	line:47
+uart1_send_byte	D:\MCUProject\ZH-SL-S4080-1\include\uart.h	26;"	p	line:26	signature:(BYTE data)
+uart1_send_byte	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	117;"	f	line:117	signature:(BYTE data)
+uart1_send_nbyte	D:\MCUProject\ZH-SL-S4080-1\include\uart.h	28;"	p	line:28	signature:(BYTE *data,DWORD size)
+uart1_send_nbyte	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	147;"	f	line:147	signature:(BYTE *data,DWORD size)
+uart1_time_count	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	41;"	v	line:41
+uart1_tx_buf	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	35;"	v	line:35
+uart_send_byte_count	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	54;"	v	line:54
+uart_send_delay_timer	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	50;"	v	line:50
+uart_send_end_flag	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	52;"	v	line:52
+uart_send_point	D:\MCUProject\ZH-SL-S4080-1\src\uart.c	56;"	v	line:56
+uchCRCHi	D:\MCUProject\ZH-SL-S4080-1\src\Modbus.c	77;"	l	line:77
+uchCRCLo	D:\MCUProject\ZH-SL-S4080-1\src\Modbus.c	78;"	l	line:78
+volt_id	D:\MCUProject\ZH-SL-S4080-1\src\ird_remote.c	99;"	v	line:99
+voltage_adjust_index	D:\MCUProject\ZH-SL-S4080-1\src\task.c	97;"	v	line:97
+work_mode	D:\MCUProject\ZH-SL-S4080-1\src\task.c	21;"	v	line:21
